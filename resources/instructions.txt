@@ -1,0 +1,299 @@
+BSWAP	Byte swap
+MOVBE	Move data after swapping data bytes
+MOV	Move data between general-purpose registers, segment registers, memory, and from immediate to general-purpose registers
+MOVZX	Move and zero extend
+MOVSX	Move and sign extend
+MOVSXD	Move and sign extend
+CMOVE	Conditional move if equal
+CMOVA	Conditional move if above
+CMOVAE	Conditional move if above or equal
+CMOVB	Conditional move if below
+CMOVBE	Conditional move if below or equal
+CMOVG	Conditional move if greater
+CMOVGE	Conditional move if greater or equal
+CMOVL	Conditional move if less
+CMOVLE	Conditional move if less or equal
+CMOVZ	Conditional move if zero
+CMOVC	Conditional move if carry
+CMOVO	Conditional move if overflow
+CMOVS	Conditional move if sign (negative)
+CMOVP	Conditional move if parity
+CMOVNE	Conditional move if not equal
+CMOVNA	Conditional move if not above
+CMOVNAE	Conditional move if not above or equal
+CMOVNB	Conditional move if not below
+CMOVNBE	Conditional move if not below or equal
+CMOVNG	Conditional move if not greater
+CMOVNGE	Conditional move if not greater or equal
+CMOVNL	Conditional move if not less
+CMOVNLE	Conditional move if not less or equal
+CMOVNZ	Conditional move if not zero
+CMOVNC	Conditional move if not carry
+CMOVNO	Conditional move if not overflow
+CMOVNS	Conditional move if not sign (non-negative)
+CMOVNP	Conditional move if not parity
+CMOVPE	Conditional move if parity even
+CMOVPO	Conditional move if parity odd
+CBW	Convert byte to word (sign-extend of AL to AX)
+CWD	Convert word to double word (sign-extend of AX to DX:AX)
+CDQ	Convert double word to quad word (sign-extend of EAX to EDX:EAX)
+CQO	Convert quad word to octal word (sign-extend of RAX to RDX:RAX)
+CWDE	Convert word to double word (sign-extend of AX to EAX)
+CDQE	Convert double word to quad word (sign-extend of EAX to RAX)
+PUSH	Push onto stack
+PUSHA	Push general-purpose registers: AX, CX, DX, BX, SP, BP, SI, DI onto stack
+PUSHAD	Push general-purpose registers: EAX, ECX, EDX, EBX, ESP, EBP, ESI, EDI onto stack
+POP	Pop off of stack
+POPA	Pop general-purpose registers: DI, SI, BP, BX, DX, CX, AX from stack
+POPAD	Pop general-purpose registers: EDI, ESI, EBP, EBX, EDX, ECX, EAX from stack
+XLATB	Table lookup translation
+XCHG	Exchange
+XADD	Exchange and add
+CMPXCHG	Compare and exchange
+CMPXCHG8B	Compare and exchange 8 bytes
+CMPXCHG16B	Compare and exchange 16 bytes
+ADCX	Unsigned integer add with carry
+ADOX	Unsigned integer add with overflow
+INC	Increment
+ADD	Add
+ADC	Add with carry
+DEC	Decrement
+SUB	Subtract
+SBB	Subtract with borrow
+MUL	Unsigned multiply
+IMUL	Signed multiply
+DIV	Unsigned divide
+IDIV	Signed divide
+NEG	Negate
+CMP	Compare
+DAA	Decimal adjust after addition
+DAS	Decimal adjust after subtraction
+AAA	ASCII adjust after addition
+AAS	ASCII adjust after subtraction
+AAM	ASCII adjust after multiplication
+AAD	ASCII adjust before division
+AND	Perform bitwise logical AND
+OR	Perform bitwise logical OR
+XOR	Perform bitwise logical exclusive OR
+NOT	Perform bitwise logical NOT
+SHL	Shift logical left
+SHLD	Shift left double
+SHR	Shift logical right
+SHRD	Shift right double
+SAL	Shift arithmetic left
+SAR	Shift arithmetic right
+ROL	Rotate left
+ROR	Rotate right
+RCL	Rotate through carry left
+RCR	Rotate through carry right
+POPCNT	Compute number of bits set to 1
+TEST	Logical compare
+BT	Bit test
+BTS	Bit test and set
+BTR	Bit test and reset
+BTC	Bit test and complement
+BSF	Bit scan forward
+BSR	Bit scan reverse
+SETE	Set byte if equal
+SETA	Set byte if above
+SETAE	Set byte if above or equal
+SETB	Set byte if below
+SETBE	Set byte if below or equal
+SETG	Set byte if greater
+SETGE	Set byte if greater or equal
+SETL	Set byte if less
+SETLE	Set byte if less or equal
+SETZ	Set byte if zero
+SETC	Set byte if carry
+SETO	Set byte if overflow
+SETS	Set byte if sign (negative)
+SETP	Set byte if parity
+SETNE	Set byte if not equal
+SETNA	Set byte if not above
+SETNAE	Set byte if not above or equal
+SETNB	Set byte if not below
+SETNBE	Set byte if not below or equal
+SETNG	Set byte if not greater
+SETNGE	Set byte if not greater or equal
+SETNL	Set byte if not less
+SETNLE	Set byte if not less or equal
+SETNZ	Set byte if not zero
+SETNC	Set byte if not carry
+SETNO	Set byte if not overflow
+SETNS	Set byte if not sign (non-negative)
+SETNP	Set byte if not parity
+SETPE	Set byte if parity even
+SETPO	Set byte if parity odd
+IN	Read from a port
+OUT	Write to a port
+INSB	Input byte string from port
+INSW	Input word string from port
+INSD	Input double word string from port
+OUTSB	Output byte string to port
+OUTSW	Output word string to port
+OUTSD	Output double word string to port
+LODSB	Load byte string
+LODSW	Load word string
+LODSD	Load double word string
+LODSQ	Load quad word string
+STOSB	Store byte string
+STOSW	Store word string
+STOSD	Store double word string
+STOSQ	Store quad word string
+MOVSB	Move byte string
+MOVSW	Move word string
+MOVSD	Move double word string
+MOVSQ	Move quad word string
+CMPSB	Compare byte string
+CMPSW	Compare word string
+CMPSD	Compare double word string
+CMPSQ	Compare quad word string
+SCASB	Scan byte string
+SCASW	Scan word string
+SCASD	Scan double word string
+SCASQ	Scan quad word string
+REP	Repeat while ECX not zero
+REPE	Repeat while equal
+REPZ	Repeat while zero
+REPNE	Repeat while not equal
+REPNZ	Repeat while not zero
+JMP	Jump
+JE	Jump if equal
+JA	Jump if above
+JAE	Jump if above or equal
+JB	Jump if below
+JBE	Jump if below or equal
+JG	Jump if greater
+JGE	Jump if greater or equal
+JL	Jump if less
+JLE	Jump if less or equal
+JZ	Jump if zero
+JC	Jump if carry
+JO	Jump if overflow
+JS	Jump if sign (negative)
+JP	Jump if parity
+JNE	Jump if not equal
+JNA	Jump if not above
+JNAE	Jump if not above or equal
+JNB	Jump if not below
+JNBE	Jump if not below or equal
+JNG	Jump if not greater
+JNGE	Jump if not greater or equal
+JNL	Jump if not less
+JNLE	Jump if not less or equal
+JNZ	Jump if not zero
+JNC	Jump if not carry
+JNO	Jump if not overflow
+JNS	Jump if not sign (non-negative)
+JNP	Jump if not parity
+JPE	Jump if parity even
+JPO	Jump if parity odd
+JCXZ	Jump register CX zero
+JECXZ	Jump register ECX zero
+LOOP	Loop with ECX counter
+LOOPE	Loop with ECX and equal
+LOOPZ	Loop with ECX and zero
+LOOPNE	Loop with ECX and not equal
+LOOPNZ	Loop with ECX and not zero
+CALL	Call procedure
+RET	Return
+IRET	Return from interrupt
+INT	Software interrupt
+INTO	Interrupt on overflow
+BOUND	Detect value out of range
+ENTER	High-level procedure entry
+LEAVE	High-level procedure exit
+STI	Set interrupt flag
+STD	Set direction flag
+STC	Set carry flag
+CLI	Clear the interrupt flag
+CLD	Clear the direction flag
+CLC	Clear the carry flag
+CMC	Complement the carry flag
+STAC	Set AC flag in EFLAGS register
+CLAC	Clear AC flag in EFLAGS register
+LAHF	Load flags into AH register
+SAHF	Store AH register into flags
+PUSHF	Push lower 16 bits of EFLAGS onto stack
+PUSHFD	Push EFLAGS onto stack
+PUSHFQ	Push RFLAGS onto stack
+POPF	Push lower 16 bits of EFLAGS from stack
+POPFD	Pop EFLAGS from stack
+POPFQ	Pop RFLAGS from stack
+LEA	Load effective address
+NOP	No operation
+UD2	Undefined instruction
+RDPID	Read processor ID
+CPUID	Processor identification
+CRC32	Provides hardware acceleration to calculate cyclic redundancy checks for fast and efficient implementation of data integrity protocols
+RDRAND	Retrieves a random number generated from hardware
+RDSEED	Retrieves a random number generated from hardware
+BEXTR	Contiguous bitwise extract
+BLSI	Extract lowest set bit
+BLSR	Reset lowest set bit
+BLSMSK	Set all lower bits below first set bit to 1
+BZHI	Zero high bits starting from specified bit position
+PEXT	Parallel extraction of bits using a mask
+PDEP	Parallel deposit of bits using a mask
+TZCNT	Count the number trailing zero bits
+LZCNT	Count the number leading zero bits
+ANDN	Bitwise AND of first source with inverted 2nd source operands
+MULX	Unsigned multiply without affecting flags
+SHLX	Shift logic left without affecting flags
+SHRX	Shift logic right without affecting flags
+SARX	Shift arithmetic right without affecting flags
+RORX	Rotate right without affecting flags
+LDS	Load far pointer using DS
+LES	Load far pointer using ES
+LFS	Load far pointer using FS
+LGS	Load far pointer using GS
+LSS	Load far pointer using SS
+LLDT	Load local descriptor table (LDT) register
+SLDT	Store local descriptor table (LDT) register
+LGDT	Load global descriptor table (GDT) register
+SGDT	Store global descriptor table (GDT) register
+LIDT	Load interrupt descriptor table (IDT) register
+SIDT	Store interrupt descriptor table (IDT) register
+LMSW	Load machine status word
+SMSW	Store machine status word
+LTR	Load task register
+STR	Store task register
+XSAVE	Save processor extended states to memory
+XSAVES	Save processor extended states supervisor
+XSAVEC	Save processor extended states with compaction
+XSAVEOPT	Save processor extended states to memory, optimized
+XRSTOR	Restore processor extended states from memory
+XRSTORS	Restore processor extended states supervisor
+RDMSR	Read model-specific register
+WRMSR	Write model-specific register
+XGETBV	Reads the state of an extended control register
+XSETBV	Writes the state of an extended control register
+RDFSBASE	Reads from FS base address at any privilege level
+WRFSBASE	Writes to FS base address at any privilege level
+RDGSBASE	Reads from GS base address at any privilege level
+WRGSBASE	Writes to GS base address at any privilege level
+VERR	Verify segment for reading
+VERW	Verify segment for writing
+MOV	Load and store control registers
+MOV	Load and store debug registers
+LAR	Load access rights
+LSL	Load segment limit
+RDPMC	Read performance monitoring counter
+RDTSC	Read time stamp counter
+RDTSCP	Read time stamp counter and processor ID
+CLTS	Clear the task-switched flag
+ARPL	Adjust requested privilege level
+INVD	Invalidate cache, no write back
+WBINVD	Invalidate cache, with write back
+INVLPG	Invalidate TLB entry
+INVPCID	Invalidate process-context identifier
+LOCK	Lock bus (prefix)
+HLT	Halt processor
+SYSENTER	Fast system call, transfers to a flat protected mode kernel at CPL = 0
+SYSEXIT	Fast system call, transfers to a flat protected mode kernel at CPL = 3
+SYSCALL	Fast call to privilege level 0 system procedures
+SYSRET	Return from fast system call
+RSM	Return from system management mode (SMM)
+SWAPGS	Exchanges current GS base register value with value in MSR address 0xC0000102
+RDPKRU	Read protection key rights for user pages
+WRPKRU	Write data to user page key register

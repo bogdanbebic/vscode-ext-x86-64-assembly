@@ -1,0 +1,1497 @@
+[
+    {
+        "label": "bswap",
+        "detail": "CPU instruction",
+        "documentation": "Byte swap"
+    },
+    {
+        "label": "movbe",
+        "detail": "CPU instruction",
+        "documentation": "Move data after swapping data bytes"
+    },
+    {
+        "label": "mov",
+        "detail": "CPU instruction",
+        "documentation": "Move data between general-purpose registers, segment registers, memory, and from immediate to general-purpose registers"
+    },
+    {
+        "label": "movzx",
+        "detail": "CPU instruction",
+        "documentation": "Move and zero extend"
+    },
+    {
+        "label": "movsx",
+        "detail": "CPU instruction",
+        "documentation": "Move and sign extend"
+    },
+    {
+        "label": "movsxd",
+        "detail": "CPU instruction",
+        "documentation": "Move and sign extend"
+    },
+    {
+        "label": "cmove",
+        "detail": "CPU instruction",
+        "documentation": "Conditional move if equal"
+    },
+    {
+        "label": "cmova",
+        "detail": "CPU instruction",
+        "documentation": "Conditional move if above"
+    },
+    {
+        "label": "cmovae",
+        "detail": "CPU instruction",
+        "documentation": "Conditional move if above or equal"
+    },
+    {
+        "label": "cmovb",
+        "detail": "CPU instruction",
+        "documentation": "Conditional move if below"
+    },
+    {
+        "label": "cmovbe",
+        "detail": "CPU instruction",
+        "documentation": "Conditional move if below or equal"
+    },
+    {
+        "label": "cmovg",
+        "detail": "CPU instruction",
+        "documentation": "Conditional move if greater"
+    },
+    {
+        "label": "cmovge",
+        "detail": "CPU instruction",
+        "documentation": "Conditional move if greater or equal"
+    },
+    {
+        "label": "cmovl",
+        "detail": "CPU instruction",
+        "documentation": "Conditional move if less"
+    },
+    {
+        "label": "cmovle",
+        "detail": "CPU instruction",
+        "documentation": "Conditional move if less or equal"
+    },
+    {
+        "label": "cmovz",
+        "detail": "CPU instruction",
+        "documentation": "Conditional move if zero"
+    },
+    {
+        "label": "cmovc",
+        "detail": "CPU instruction",
+        "documentation": "Conditional move if carry"
+    },
+    {
+        "label": "cmovo",
+        "detail": "CPU instruction",
+        "documentation": "Conditional move if overflow"
+    },
+    {
+        "label": "cmovs",
+        "detail": "CPU instruction",
+        "documentation": "Conditional move if sign (negative)"
+    },
+    {
+        "label": "cmovp",
+        "detail": "CPU instruction",
+        "documentation": "Conditional move if parity"
+    },
+    {
+        "label": "cmovne",
+        "detail": "CPU instruction",
+        "documentation": "Conditional move if not equal"
+    },
+    {
+        "label": "cmovna",
+        "detail": "CPU instruction",
+        "documentation": "Conditional move if not above"
+    },
+    {
+        "label": "cmovnae",
+        "detail": "CPU instruction",
+        "documentation": "Conditional move if not above or equal"
+    },
+    {
+        "label": "cmovnb",
+        "detail": "CPU instruction",
+        "documentation": "Conditional move if not below"
+    },
+    {
+        "label": "cmovnbe",
+        "detail": "CPU instruction",
+        "documentation": "Conditional move if not below or equal"
+    },
+    {
+        "label": "cmovng",
+        "detail": "CPU instruction",
+        "documentation": "Conditional move if not greater"
+    },
+    {
+        "label": "cmovnge",
+        "detail": "CPU instruction",
+        "documentation": "Conditional move if not greater or equal"
+    },
+    {
+        "label": "cmovnl",
+        "detail": "CPU instruction",
+        "documentation": "Conditional move if not less"
+    },
+    {
+        "label": "cmovnle",
+        "detail": "CPU instruction",
+        "documentation": "Conditional move if not less or equal"
+    },
+    {
+        "label": "cmovnz",
+        "detail": "CPU instruction",
+        "documentation": "Conditional move if not zero"
+    },
+    {
+        "label": "cmovnc",
+        "detail": "CPU instruction",
+        "documentation": "Conditional move if not carry"
+    },
+    {
+        "label": "cmovno",
+        "detail": "CPU instruction",
+        "documentation": "Conditional move if not overflow"
+    },
+    {
+        "label": "cmovns",
+        "detail": "CPU instruction",
+        "documentation": "Conditional move if not sign (non-negative)"
+    },
+    {
+        "label": "cmovnp",
+        "detail": "CPU instruction",
+        "documentation": "Conditional move if not parity"
+    },
+    {
+        "label": "cmovpe",
+        "detail": "CPU instruction",
+        "documentation": "Conditional move if parity even"
+    },
+    {
+        "label": "cmovpo",
+        "detail": "CPU instruction",
+        "documentation": "Conditional move if parity odd"
+    },
+    {
+        "label": "cbw",
+        "detail": "CPU instruction",
+        "documentation": "Convert byte to word (sign-extend of AL to AX)"
+    },
+    {
+        "label": "cwd",
+        "detail": "CPU instruction",
+        "documentation": "Convert word to double word (sign-extend of AX to DX:AX)"
+    },
+    {
+        "label": "cdq",
+        "detail": "CPU instruction",
+        "documentation": "Convert double word to quad word (sign-extend of EAX to EDX:EAX)"
+    },
+    {
+        "label": "cqo",
+        "detail": "CPU instruction",
+        "documentation": "Convert quad word to octal word (sign-extend of RAX to RDX:RAX)"
+    },
+    {
+        "label": "cwde",
+        "detail": "CPU instruction",
+        "documentation": "Convert word to double word (sign-extend of AX to EAX)"
+    },
+    {
+        "label": "cdqe",
+        "detail": "CPU instruction",
+        "documentation": "Convert double word to quad word (sign-extend of EAX to RAX)"
+    },
+    {
+        "label": "push",
+        "detail": "CPU instruction",
+        "documentation": "Push onto stack"
+    },
+    {
+        "label": "pusha",
+        "detail": "CPU instruction",
+        "documentation": "Push general-purpose registers: AX, CX, DX, BX, SP, BP, SI, DI onto stack"
+    },
+    {
+        "label": "pushad",
+        "detail": "CPU instruction",
+        "documentation": "Push general-purpose registers: EAX, ECX, EDX, EBX, ESP, EBP, ESI, EDI onto stack"
+    },
+    {
+        "label": "pop",
+        "detail": "CPU instruction",
+        "documentation": "Pop off of stack"
+    },
+    {
+        "label": "popa",
+        "detail": "CPU instruction",
+        "documentation": "Pop general-purpose registers: DI, SI, BP, BX, DX, CX, AX from stack"
+    },
+    {
+        "label": "popad",
+        "detail": "CPU instruction",
+        "documentation": "Pop general-purpose registers: EDI, ESI, EBP, EBX, EDX, ECX, EAX from stack"
+    },
+    {
+        "label": "xlatb",
+        "detail": "CPU instruction",
+        "documentation": "Table lookup translation"
+    },
+    {
+        "label": "xchg",
+        "detail": "CPU instruction",
+        "documentation": "Exchange"
+    },
+    {
+        "label": "xadd",
+        "detail": "CPU instruction",
+        "documentation": "Exchange and add"
+    },
+    {
+        "label": "cmpxchg",
+        "detail": "CPU instruction",
+        "documentation": "Compare and exchange"
+    },
+    {
+        "label": "cmpxchg8b",
+        "detail": "CPU instruction",
+        "documentation": "Compare and exchange 8 bytes"
+    },
+    {
+        "label": "cmpxchg16b",
+        "detail": "CPU instruction",
+        "documentation": "Compare and exchange 16 bytes"
+    },
+    {
+        "label": "adcx",
+        "detail": "CPU instruction",
+        "documentation": "Unsigned integer add with carry"
+    },
+    {
+        "label": "adox",
+        "detail": "CPU instruction",
+        "documentation": "Unsigned integer add with overflow"
+    },
+    {
+        "label": "inc",
+        "detail": "CPU instruction",
+        "documentation": "Increment"
+    },
+    {
+        "label": "add",
+        "detail": "CPU instruction",
+        "documentation": "Add"
+    },
+    {
+        "label": "adc",
+        "detail": "CPU instruction",
+        "documentation": "Add with carry"
+    },
+    {
+        "label": "dec",
+        "detail": "CPU instruction",
+        "documentation": "Decrement"
+    },
+    {
+        "label": "sub",
+        "detail": "CPU instruction",
+        "documentation": "Subtract"
+    },
+    {
+        "label": "sbb",
+        "detail": "CPU instruction",
+        "documentation": "Subtract with borrow"
+    },
+    {
+        "label": "mul",
+        "detail": "CPU instruction",
+        "documentation": "Unsigned multiply"
+    },
+    {
+        "label": "imul",
+        "detail": "CPU instruction",
+        "documentation": "Signed multiply"
+    },
+    {
+        "label": "div",
+        "detail": "CPU instruction",
+        "documentation": "Unsigned divide"
+    },
+    {
+        "label": "idiv",
+        "detail": "CPU instruction",
+        "documentation": "Signed divide"
+    },
+    {
+        "label": "neg",
+        "detail": "CPU instruction",
+        "documentation": "Negate"
+    },
+    {
+        "label": "cmp",
+        "detail": "CPU instruction",
+        "documentation": "Compare"
+    },
+    {
+        "label": "daa",
+        "detail": "CPU instruction",
+        "documentation": "Decimal adjust after addition"
+    },
+    {
+        "label": "das",
+        "detail": "CPU instruction",
+        "documentation": "Decimal adjust after subtraction"
+    },
+    {
+        "label": "aaa",
+        "detail": "CPU instruction",
+        "documentation": "ASCII adjust after addition"
+    },
+    {
+        "label": "aas",
+        "detail": "CPU instruction",
+        "documentation": "ASCII adjust after subtraction"
+    },
+    {
+        "label": "aam",
+        "detail": "CPU instruction",
+        "documentation": "ASCII adjust after multiplication"
+    },
+    {
+        "label": "aad",
+        "detail": "CPU instruction",
+        "documentation": "ASCII adjust before division"
+    },
+    {
+        "label": "and",
+        "detail": "CPU instruction",
+        "documentation": "Perform bitwise logical AND"
+    },
+    {
+        "label": "or",
+        "detail": "CPU instruction",
+        "documentation": "Perform bitwise logical OR"
+    },
+    {
+        "label": "xor",
+        "detail": "CPU instruction",
+        "documentation": "Perform bitwise logical exclusive OR"
+    },
+    {
+        "label": "not",
+        "detail": "CPU instruction",
+        "documentation": "Perform bitwise logical NOT"
+    },
+    {
+        "label": "shl",
+        "detail": "CPU instruction",
+        "documentation": "Shift logical left"
+    },
+    {
+        "label": "shld",
+        "detail": "CPU instruction",
+        "documentation": "Shift left double"
+    },
+    {
+        "label": "shr",
+        "detail": "CPU instruction",
+        "documentation": "Shift logical right"
+    },
+    {
+        "label": "shrd",
+        "detail": "CPU instruction",
+        "documentation": "Shift right double"
+    },
+    {
+        "label": "sal",
+        "detail": "CPU instruction",
+        "documentation": "Shift arithmetic left"
+    },
+    {
+        "label": "sar",
+        "detail": "CPU instruction",
+        "documentation": "Shift arithmetic right"
+    },
+    {
+        "label": "rol",
+        "detail": "CPU instruction",
+        "documentation": "Rotate left"
+    },
+    {
+        "label": "ror",
+        "detail": "CPU instruction",
+        "documentation": "Rotate right"
+    },
+    {
+        "label": "rcl",
+        "detail": "CPU instruction",
+        "documentation": "Rotate through carry left"
+    },
+    {
+        "label": "rcr",
+        "detail": "CPU instruction",
+        "documentation": "Rotate through carry right"
+    },
+    {
+        "label": "popcnt",
+        "detail": "CPU instruction",
+        "documentation": "Compute number of bits set to 1"
+    },
+    {
+        "label": "test",
+        "detail": "CPU instruction",
+        "documentation": "Logical compare"
+    },
+    {
+        "label": "bt",
+        "detail": "CPU instruction",
+        "documentation": "Bit test"
+    },
+    {
+        "label": "bts",
+        "detail": "CPU instruction",
+        "documentation": "Bit test and set"
+    },
+    {
+        "label": "btr",
+        "detail": "CPU instruction",
+        "documentation": "Bit test and reset"
+    },
+    {
+        "label": "btc",
+        "detail": "CPU instruction",
+        "documentation": "Bit test and complement"
+    },
+    {
+        "label": "bsf",
+        "detail": "CPU instruction",
+        "documentation": "Bit scan forward"
+    },
+    {
+        "label": "bsr",
+        "detail": "CPU instruction",
+        "documentation": "Bit scan reverse"
+    },
+    {
+        "label": "sete",
+        "detail": "CPU instruction",
+        "documentation": "Set byte if equal"
+    },
+    {
+        "label": "seta",
+        "detail": "CPU instruction",
+        "documentation": "Set byte if above"
+    },
+    {
+        "label": "setae",
+        "detail": "CPU instruction",
+        "documentation": "Set byte if above or equal"
+    },
+    {
+        "label": "setb",
+        "detail": "CPU instruction",
+        "documentation": "Set byte if below"
+    },
+    {
+        "label": "setbe",
+        "detail": "CPU instruction",
+        "documentation": "Set byte if below or equal"
+    },
+    {
+        "label": "setg",
+        "detail": "CPU instruction",
+        "documentation": "Set byte if greater"
+    },
+    {
+        "label": "setge",
+        "detail": "CPU instruction",
+        "documentation": "Set byte if greater or equal"
+    },
+    {
+        "label": "setl",
+        "detail": "CPU instruction",
+        "documentation": "Set byte if less"
+    },
+    {
+        "label": "setle",
+        "detail": "CPU instruction",
+        "documentation": "Set byte if less or equal"
+    },
+    {
+        "label": "setz",
+        "detail": "CPU instruction",
+        "documentation": "Set byte if zero"
+    },
+    {
+        "label": "setc",
+        "detail": "CPU instruction",
+        "documentation": "Set byte if carry"
+    },
+    {
+        "label": "seto",
+        "detail": "CPU instruction",
+        "documentation": "Set byte if overflow"
+    },
+    {
+        "label": "sets",
+        "detail": "CPU instruction",
+        "documentation": "Set byte if sign (negative)"
+    },
+    {
+        "label": "setp",
+        "detail": "CPU instruction",
+        "documentation": "Set byte if parity"
+    },
+    {
+        "label": "setne",
+        "detail": "CPU instruction",
+        "documentation": "Set byte if not equal"
+    },
+    {
+        "label": "setna",
+        "detail": "CPU instruction",
+        "documentation": "Set byte if not above"
+    },
+    {
+        "label": "setnae",
+        "detail": "CPU instruction",
+        "documentation": "Set byte if not above or equal"
+    },
+    {
+        "label": "setnb",
+        "detail": "CPU instruction",
+        "documentation": "Set byte if not below"
+    },
+    {
+        "label": "setnbe",
+        "detail": "CPU instruction",
+        "documentation": "Set byte if not below or equal"
+    },
+    {
+        "label": "setng",
+        "detail": "CPU instruction",
+        "documentation": "Set byte if not greater"
+    },
+    {
+        "label": "setnge",
+        "detail": "CPU instruction",
+        "documentation": "Set byte if not greater or equal"
+    },
+    {
+        "label": "setnl",
+        "detail": "CPU instruction",
+        "documentation": "Set byte if not less"
+    },
+    {
+        "label": "setnle",
+        "detail": "CPU instruction",
+        "documentation": "Set byte if not less or equal"
+    },
+    {
+        "label": "setnz",
+        "detail": "CPU instruction",
+        "documentation": "Set byte if not zero"
+    },
+    {
+        "label": "setnc",
+        "detail": "CPU instruction",
+        "documentation": "Set byte if not carry"
+    },
+    {
+        "label": "setno",
+        "detail": "CPU instruction",
+        "documentation": "Set byte if not overflow"
+    },
+    {
+        "label": "setns",
+        "detail": "CPU instruction",
+        "documentation": "Set byte if not sign (non-negative)"
+    },
+    {
+        "label": "setnp",
+        "detail": "CPU instruction",
+        "documentation": "Set byte if not parity"
+    },
+    {
+        "label": "setpe",
+        "detail": "CPU instruction",
+        "documentation": "Set byte if parity even"
+    },
+    {
+        "label": "setpo",
+        "detail": "CPU instruction",
+        "documentation": "Set byte if parity odd"
+    },
+    {
+        "label": "in",
+        "detail": "CPU instruction",
+        "documentation": "Read from a port"
+    },
+    {
+        "label": "out",
+        "detail": "CPU instruction",
+        "documentation": "Write to a port"
+    },
+    {
+        "label": "insb",
+        "detail": "CPU instruction",
+        "documentation": "Input byte string from port"
+    },
+    {
+        "label": "insw",
+        "detail": "CPU instruction",
+        "documentation": "Input word string from port"
+    },
+    {
+        "label": "insd",
+        "detail": "CPU instruction",
+        "documentation": "Input double word string from port"
+    },
+    {
+        "label": "outsb",
+        "detail": "CPU instruction",
+        "documentation": "Output byte string to port"
+    },
+    {
+        "label": "outsw",
+        "detail": "CPU instruction",
+        "documentation": "Output word string to port"
+    },
+    {
+        "label": "outsd",
+        "detail": "CPU instruction",
+        "documentation": "Output double word string to port"
+    },
+    {
+        "label": "lodsb",
+        "detail": "CPU instruction",
+        "documentation": "Load byte string"
+    },
+    {
+        "label": "lodsw",
+        "detail": "CPU instruction",
+        "documentation": "Load word string"
+    },
+    {
+        "label": "lodsd",
+        "detail": "CPU instruction",
+        "documentation": "Load double word string"
+    },
+    {
+        "label": "lodsq",
+        "detail": "CPU instruction",
+        "documentation": "Load quad word string"
+    },
+    {
+        "label": "stosb",
+        "detail": "CPU instruction",
+        "documentation": "Store byte string"
+    },
+    {
+        "label": "stosw",
+        "detail": "CPU instruction",
+        "documentation": "Store word string"
+    },
+    {
+        "label": "stosd",
+        "detail": "CPU instruction",
+        "documentation": "Store double word string"
+    },
+    {
+        "label": "stosq",
+        "detail": "CPU instruction",
+        "documentation": "Store quad word string"
+    },
+    {
+        "label": "movsb",
+        "detail": "CPU instruction",
+        "documentation": "Move byte string"
+    },
+    {
+        "label": "movsw",
+        "detail": "CPU instruction",
+        "documentation": "Move word string"
+    },
+    {
+        "label": "movsd",
+        "detail": "CPU instruction",
+        "documentation": "Move double word string"
+    },
+    {
+        "label": "movsq",
+        "detail": "CPU instruction",
+        "documentation": "Move quad word string"
+    },
+    {
+        "label": "cmpsb",
+        "detail": "CPU instruction",
+        "documentation": "Compare byte string"
+    },
+    {
+        "label": "cmpsw",
+        "detail": "CPU instruction",
+        "documentation": "Compare word string"
+    },
+    {
+        "label": "cmpsd",
+        "detail": "CPU instruction",
+        "documentation": "Compare double word string"
+    },
+    {
+        "label": "cmpsq",
+        "detail": "CPU instruction",
+        "documentation": "Compare quad word string"
+    },
+    {
+        "label": "scasb",
+        "detail": "CPU instruction",
+        "documentation": "Scan byte string"
+    },
+    {
+        "label": "scasw",
+        "detail": "CPU instruction",
+        "documentation": "Scan word string"
+    },
+    {
+        "label": "scasd",
+        "detail": "CPU instruction",
+        "documentation": "Scan double word string"
+    },
+    {
+        "label": "scasq",
+        "detail": "CPU instruction",
+        "documentation": "Scan quad word string"
+    },
+    {
+        "label": "rep",
+        "detail": "CPU instruction",
+        "documentation": "Repeat while ECX not zero"
+    },
+    {
+        "label": "repe",
+        "detail": "CPU instruction",
+        "documentation": "Repeat while equal"
+    },
+    {
+        "label": "repz",
+        "detail": "CPU instruction",
+        "documentation": "Repeat while zero"
+    },
+    {
+        "label": "repne",
+        "detail": "CPU instruction",
+        "documentation": "Repeat while not equal"
+    },
+    {
+        "label": "repnz",
+        "detail": "CPU instruction",
+        "documentation": "Repeat while not zero"
+    },
+    {
+        "label": "jmp",
+        "detail": "CPU instruction",
+        "documentation": "Jump"
+    },
+    {
+        "label": "je",
+        "detail": "CPU instruction",
+        "documentation": "Jump if equal"
+    },
+    {
+        "label": "ja",
+        "detail": "CPU instruction",
+        "documentation": "Jump if above"
+    },
+    {
+        "label": "jae",
+        "detail": "CPU instruction",
+        "documentation": "Jump if above or equal"
+    },
+    {
+        "label": "jb",
+        "detail": "CPU instruction",
+        "documentation": "Jump if below"
+    },
+    {
+        "label": "jbe",
+        "detail": "CPU instruction",
+        "documentation": "Jump if below or equal"
+    },
+    {
+        "label": "jg",
+        "detail": "CPU instruction",
+        "documentation": "Jump if greater"
+    },
+    {
+        "label": "jge",
+        "detail": "CPU instruction",
+        "documentation": "Jump if greater or equal"
+    },
+    {
+        "label": "jl",
+        "detail": "CPU instruction",
+        "documentation": "Jump if less"
+    },
+    {
+        "label": "jle",
+        "detail": "CPU instruction",
+        "documentation": "Jump if less or equal"
+    },
+    {
+        "label": "jz",
+        "detail": "CPU instruction",
+        "documentation": "Jump if zero"
+    },
+    {
+        "label": "jc",
+        "detail": "CPU instruction",
+        "documentation": "Jump if carry"
+    },
+    {
+        "label": "jo",
+        "detail": "CPU instruction",
+        "documentation": "Jump if overflow"
+    },
+    {
+        "label": "js",
+        "detail": "CPU instruction",
+        "documentation": "Jump if sign (negative)"
+    },
+    {
+        "label": "jp",
+        "detail": "CPU instruction",
+        "documentation": "Jump if parity"
+    },
+    {
+        "label": "jne",
+        "detail": "CPU instruction",
+        "documentation": "Jump if not equal"
+    },
+    {
+        "label": "jna",
+        "detail": "CPU instruction",
+        "documentation": "Jump if not above"
+    },
+    {
+        "label": "jnae",
+        "detail": "CPU instruction",
+        "documentation": "Jump if not above or equal"
+    },
+    {
+        "label": "jnb",
+        "detail": "CPU instruction",
+        "documentation": "Jump if not below"
+    },
+    {
+        "label": "jnbe",
+        "detail": "CPU instruction",
+        "documentation": "Jump if not below or equal"
+    },
+    {
+        "label": "jng",
+        "detail": "CPU instruction",
+        "documentation": "Jump if not greater"
+    },
+    {
+        "label": "jnge",
+        "detail": "CPU instruction",
+        "documentation": "Jump if not greater or equal"
+    },
+    {
+        "label": "jnl",
+        "detail": "CPU instruction",
+        "documentation": "Jump if not less"
+    },
+    {
+        "label": "jnle",
+        "detail": "CPU instruction",
+        "documentation": "Jump if not less or equal"
+    },
+    {
+        "label": "jnz",
+        "detail": "CPU instruction",
+        "documentation": "Jump if not zero"
+    },
+    {
+        "label": "jnc",
+        "detail": "CPU instruction",
+        "documentation": "Jump if not carry"
+    },
+    {
+        "label": "jno",
+        "detail": "CPU instruction",
+        "documentation": "Jump if not overflow"
+    },
+    {
+        "label": "jns",
+        "detail": "CPU instruction",
+        "documentation": "Jump if not sign (non-negative)"
+    },
+    {
+        "label": "jnp",
+        "detail": "CPU instruction",
+        "documentation": "Jump if not parity"
+    },
+    {
+        "label": "jpe",
+        "detail": "CPU instruction",
+        "documentation": "Jump if parity even"
+    },
+    {
+        "label": "jpo",
+        "detail": "CPU instruction",
+        "documentation": "Jump if parity odd"
+    },
+    {
+        "label": "jcxz",
+        "detail": "CPU instruction",
+        "documentation": "Jump register CX zero"
+    },
+    {
+        "label": "jecxz",
+        "detail": "CPU instruction",
+        "documentation": "Jump register ECX zero"
+    },
+    {
+        "label": "loop",
+        "detail": "CPU instruction",
+        "documentation": "Loop with ECX counter"
+    },
+    {
+        "label": "loope",
+        "detail": "CPU instruction",
+        "documentation": "Loop with ECX and equal"
+    },
+    {
+        "label": "loopz",
+        "detail": "CPU instruction",
+        "documentation": "Loop with ECX and zero"
+    },
+    {
+        "label": "loopne",
+        "detail": "CPU instruction",
+        "documentation": "Loop with ECX and not equal"
+    },
+    {
+        "label": "loopnz",
+        "detail": "CPU instruction",
+        "documentation": "Loop with ECX and not zero"
+    },
+    {
+        "label": "call",
+        "detail": "CPU instruction",
+        "documentation": "Call procedure"
+    },
+    {
+        "label": "ret",
+        "detail": "CPU instruction",
+        "documentation": "Return"
+    },
+    {
+        "label": "iret",
+        "detail": "CPU instruction",
+        "documentation": "Return from interrupt"
+    },
+    {
+        "label": "int",
+        "detail": "CPU instruction",
+        "documentation": "Software interrupt"
+    },
+    {
+        "label": "into",
+        "detail": "CPU instruction",
+        "documentation": "Interrupt on overflow"
+    },
+    {
+        "label": "bound",
+        "detail": "CPU instruction",
+        "documentation": "Detect value out of range"
+    },
+    {
+        "label": "enter",
+        "detail": "CPU instruction",
+        "documentation": "High-level procedure entry"
+    },
+    {
+        "label": "leave",
+        "detail": "CPU instruction",
+        "documentation": "High-level procedure exit"
+    },
+    {
+        "label": "sti",
+        "detail": "CPU instruction",
+        "documentation": "Set interrupt flag"
+    },
+    {
+        "label": "std",
+        "detail": "CPU instruction",
+        "documentation": "Set direction flag"
+    },
+    {
+        "label": "stc",
+        "detail": "CPU instruction",
+        "documentation": "Set carry flag"
+    },
+    {
+        "label": "cli",
+        "detail": "CPU instruction",
+        "documentation": "Clear the interrupt flag"
+    },
+    {
+        "label": "cld",
+        "detail": "CPU instruction",
+        "documentation": "Clear the direction flag"
+    },
+    {
+        "label": "clc",
+        "detail": "CPU instruction",
+        "documentation": "Clear the carry flag"
+    },
+    {
+        "label": "cmc",
+        "detail": "CPU instruction",
+        "documentation": "Complement the carry flag"
+    },
+    {
+        "label": "stac",
+        "detail": "CPU instruction",
+        "documentation": "Set AC flag in EFLAGS register"
+    },
+    {
+        "label": "clac",
+        "detail": "CPU instruction",
+        "documentation": "Clear AC flag in EFLAGS register"
+    },
+    {
+        "label": "lahf",
+        "detail": "CPU instruction",
+        "documentation": "Load flags into AH register"
+    },
+    {
+        "label": "sahf",
+        "detail": "CPU instruction",
+        "documentation": "Store AH register into flags"
+    },
+    {
+        "label": "pushf",
+        "detail": "CPU instruction",
+        "documentation": "Push lower 16 bits of EFLAGS onto stack"
+    },
+    {
+        "label": "pushfd",
+        "detail": "CPU instruction",
+        "documentation": "Push EFLAGS onto stack"
+    },
+    {
+        "label": "pushfq",
+        "detail": "CPU instruction",
+        "documentation": "Push RFLAGS onto stack"
+    },
+    {
+        "label": "popf",
+        "detail": "CPU instruction",
+        "documentation": "Push lower 16 bits of EFLAGS from stack"
+    },
+    {
+        "label": "popfd",
+        "detail": "CPU instruction",
+        "documentation": "Pop EFLAGS from stack"
+    },
+    {
+        "label": "popfq",
+        "detail": "CPU instruction",
+        "documentation": "Pop RFLAGS from stack"
+    },
+    {
+        "label": "lea",
+        "detail": "CPU instruction",
+        "documentation": "Load effective address"
+    },
+    {
+        "label": "nop",
+        "detail": "CPU instruction",
+        "documentation": "No operation"
+    },
+    {
+        "label": "ud2",
+        "detail": "CPU instruction",
+        "documentation": "Undefined instruction"
+    },
+    {
+        "label": "rdpid",
+        "detail": "CPU instruction",
+        "documentation": "Read processor ID"
+    },
+    {
+        "label": "cpuid",
+        "detail": "CPU instruction",
+        "documentation": "Processor identification"
+    },
+    {
+        "label": "crc32",
+        "detail": "CPU instruction",
+        "documentation": "Provides hardware acceleration to calculate cyclic redundancy checks for fast and efficient implementation of data integrity protocols"
+    },
+    {
+        "label": "rdrand",
+        "detail": "CPU instruction",
+        "documentation": "Retrieves a random number generated from hardware"
+    },
+    {
+        "label": "rdseed",
+        "detail": "CPU instruction",
+        "documentation": "Retrieves a random number generated from hardware"
+    },
+    {
+        "label": "bextr",
+        "detail": "CPU instruction",
+        "documentation": "Contiguous bitwise extract"
+    },
+    {
+        "label": "blsi",
+        "detail": "CPU instruction",
+        "documentation": "Extract lowest set bit"
+    },
+    {
+        "label": "blsr",
+        "detail": "CPU instruction",
+        "documentation": "Reset lowest set bit"
+    },
+    {
+        "label": "blsmsk",
+        "detail": "CPU instruction",
+        "documentation": "Set all lower bits below first set bit to 1"
+    },
+    {
+        "label": "bzhi",
+        "detail": "CPU instruction",
+        "documentation": "Zero high bits starting from specified bit position"
+    },
+    {
+        "label": "pext",
+        "detail": "CPU instruction",
+        "documentation": "Parallel extraction of bits using a mask"
+    },
+    {
+        "label": "pdep",
+        "detail": "CPU instruction",
+        "documentation": "Parallel deposit of bits using a mask"
+    },
+    {
+        "label": "tzcnt",
+        "detail": "CPU instruction",
+        "documentation": "Count the number trailing zero bits"
+    },
+    {
+        "label": "lzcnt",
+        "detail": "CPU instruction",
+        "documentation": "Count the number leading zero bits"
+    },
+    {
+        "label": "andn",
+        "detail": "CPU instruction",
+        "documentation": "Bitwise AND of first source with inverted 2nd source operands"
+    },
+    {
+        "label": "mulx",
+        "detail": "CPU instruction",
+        "documentation": "Unsigned multiply without affecting flags"
+    },
+    {
+        "label": "shlx",
+        "detail": "CPU instruction",
+        "documentation": "Shift logic left without affecting flags"
+    },
+    {
+        "label": "shrx",
+        "detail": "CPU instruction",
+        "documentation": "Shift logic right without affecting flags"
+    },
+    {
+        "label": "sarx",
+        "detail": "CPU instruction",
+        "documentation": "Shift arithmetic right without affecting flags"
+    },
+    {
+        "label": "rorx",
+        "detail": "CPU instruction",
+        "documentation": "Rotate right without affecting flags"
+    },
+    {
+        "label": "lds",
+        "detail": "CPU instruction",
+        "documentation": "Load far pointer using DS"
+    },
+    {
+        "label": "les",
+        "detail": "CPU instruction",
+        "documentation": "Load far pointer using ES"
+    },
+    {
+        "label": "lfs",
+        "detail": "CPU instruction",
+        "documentation": "Load far pointer using FS"
+    },
+    {
+        "label": "lgs",
+        "detail": "CPU instruction",
+        "documentation": "Load far pointer using GS"
+    },
+    {
+        "label": "lss",
+        "detail": "CPU instruction",
+        "documentation": "Load far pointer using SS"
+    },
+    {
+        "label": "lldt",
+        "detail": "CPU instruction",
+        "documentation": "Load local descriptor table (LDT) register"
+    },
+    {
+        "label": "sldt",
+        "detail": "CPU instruction",
+        "documentation": "Store local descriptor table (LDT) register"
+    },
+    {
+        "label": "lgdt",
+        "detail": "CPU instruction",
+        "documentation": "Load global descriptor table (GDT) register"
+    },
+    {
+        "label": "sgdt",
+        "detail": "CPU instruction",
+        "documentation": "Store global descriptor table (GDT) register"
+    },
+    {
+        "label": "lidt",
+        "detail": "CPU instruction",
+        "documentation": "Load interrupt descriptor table (IDT) register"
+    },
+    {
+        "label": "sidt",
+        "detail": "CPU instruction",
+        "documentation": "Store interrupt descriptor table (IDT) register"
+    },
+    {
+        "label": "lmsw",
+        "detail": "CPU instruction",
+        "documentation": "Load machine status word"
+    },
+    {
+        "label": "smsw",
+        "detail": "CPU instruction",
+        "documentation": "Store machine status word"
+    },
+    {
+        "label": "ltr",
+        "detail": "CPU instruction",
+        "documentation": "Load task register"
+    },
+    {
+        "label": "str",
+        "detail": "CPU instruction",
+        "documentation": "Store task register"
+    },
+    {
+        "label": "xsave",
+        "detail": "CPU instruction",
+        "documentation": "Save processor extended states to memory"
+    },
+    {
+        "label": "xsaves",
+        "detail": "CPU instruction",
+        "documentation": "Save processor extended states supervisor"
+    },
+    {
+        "label": "xsavec",
+        "detail": "CPU instruction",
+        "documentation": "Save processor extended states with compaction"
+    },
+    {
+        "label": "xsaveopt",
+        "detail": "CPU instruction",
+        "documentation": "Save processor extended states to memory, optimized"
+    },
+    {
+        "label": "xrstor",
+        "detail": "CPU instruction",
+        "documentation": "Restore processor extended states from memory"
+    },
+    {
+        "label": "xrstors",
+        "detail": "CPU instruction",
+        "documentation": "Restore processor extended states supervisor"
+    },
+    {
+        "label": "rdmsr",
+        "detail": "CPU instruction",
+        "documentation": "Read model-specific register"
+    },
+    {
+        "label": "wrmsr",
+        "detail": "CPU instruction",
+        "documentation": "Write model-specific register"
+    },
+    {
+        "label": "xgetbv",
+        "detail": "CPU instruction",
+        "documentation": "Reads the state of an extended control register"
+    },
+    {
+        "label": "xsetbv",
+        "detail": "CPU instruction",
+        "documentation": "Writes the state of an extended control register"
+    },
+    {
+        "label": "rdfsbase",
+        "detail": "CPU instruction",
+        "documentation": "Reads from FS base address at any privilege level"
+    },
+    {
+        "label": "wrfsbase",
+        "detail": "CPU instruction",
+        "documentation": "Writes to FS base address at any privilege level"
+    },
+    {
+        "label": "rdgsbase",
+        "detail": "CPU instruction",
+        "documentation": "Reads from GS base address at any privilege level"
+    },
+    {
+        "label": "wrgsbase",
+        "detail": "CPU instruction",
+        "documentation": "Writes to GS base address at any privilege level"
+    },
+    {
+        "label": "verr",
+        "detail": "CPU instruction",
+        "documentation": "Verify segment for reading"
+    },
+    {
+        "label": "verw",
+        "detail": "CPU instruction",
+        "documentation": "Verify segment for writing"
+    },
+    {
+        "label": "mov",
+        "detail": "CPU instruction",
+        "documentation": "Load and store control registers"
+    },
+    {
+        "label": "mov",
+        "detail": "CPU instruction",
+        "documentation": "Load and store debug registers"
+    },
+    {
+        "label": "lar",
+        "detail": "CPU instruction",
+        "documentation": "Load access rights"
+    },
+    {
+        "label": "lsl",
+        "detail": "CPU instruction",
+        "documentation": "Load segment limit"
+    },
+    {
+        "label": "rdpmc",
+        "detail": "CPU instruction",
+        "documentation": "Read performance monitoring counter"
+    },
+    {
+        "label": "rdtsc",
+        "detail": "CPU instruction",
+        "documentation": "Read time stamp counter"
+    },
+    {
+        "label": "rdtscp",
+        "detail": "CPU instruction",
+        "documentation": "Read time stamp counter and processor ID"
+    },
+    {
+        "label": "clts",
+        "detail": "CPU instruction",
+        "documentation": "Clear the task-switched flag"
+    },
+    {
+        "label": "arpl",
+        "detail": "CPU instruction",
+        "documentation": "Adjust requested privilege level"
+    },
+    {
+        "label": "invd",
+        "detail": "CPU instruction",
+        "documentation": "Invalidate cache, no write back"
+    },
+    {
+        "label": "wbinvd",
+        "detail": "CPU instruction",
+        "documentation": "Invalidate cache, with write back"
+    },
+    {
+        "label": "invlpg",
+        "detail": "CPU instruction",
+        "documentation": "Invalidate TLB entry"
+    },
+    {
+        "label": "invpcid",
+        "detail": "CPU instruction",
+        "documentation": "Invalidate process-context identifier"
+    },
+    {
+        "label": "lock",
+        "detail": "CPU instruction",
+        "documentation": "Lock bus (prefix)"
+    },
+    {
+        "label": "hlt",
+        "detail": "CPU instruction",
+        "documentation": "Halt processor"
+    },
+    {
+        "label": "sysenter",
+        "detail": "CPU instruction",
+        "documentation": "Fast system call, transfers to a flat protected mode kernel at CPL = 0"
+    },
+    {
+        "label": "sysexit",
+        "detail": "CPU instruction",
+        "documentation": "Fast system call, transfers to a flat protected mode kernel at CPL = 3"
+    },
+    {
+        "label": "syscall",
+        "detail": "CPU instruction",
+        "documentation": "Fast call to privilege level 0 system procedures"
+    },
+    {
+        "label": "sysret",
+        "detail": "CPU instruction",
+        "documentation": "Return from fast system call"
+    },
+    {
+        "label": "rsm",
+        "detail": "CPU instruction",
+        "documentation": "Return from system management mode (SMM)"
+    },
+    {
+        "label": "swapgs",
+        "detail": "CPU instruction",
+        "documentation": "Exchanges current GS base register value with value in MSR address 0xC0000102"
+    },
+    {
+        "label": "rdpkru",
+        "detail": "CPU instruction",
+        "documentation": "Read protection key rights for user pages"
+    },
+    {
+        "label": "wrpkru",
+        "detail": "CPU instruction",
+        "documentation": "Write data to user page key register"
+    }
+]
