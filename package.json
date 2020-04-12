@@ -10,7 +10,8 @@
 		"Other"
 	],
 	"activationEvents": [
-		"onCommand:vscode-ext-x86-64-assembly.helloWorld"
+		"onCommand:vscode-ext-x86-64-assembly.helloWorld",
+		"onLanguage:asm"
 	],
 	"main": "./out/extension.js",
 	"contributes": {
