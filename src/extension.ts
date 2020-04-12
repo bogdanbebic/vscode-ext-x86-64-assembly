@@ -21,6 +21,21 @@ export function activate(context: vscode.ExtensionContext) {
 	});
 
 	context.subscriptions.push(disposable);
+
+	
+	let registers = require('../resources/registers.json');
+	// add property for autocomplete
+	for (let index = 0; index < registers.length; index++) {
+		registers[index].kind = vscode.CompletionItemKind.Variable;		
+	}
+
+	let disposable_completion_regs = vscode.languages.registerCompletionItemProvider('asm', {
+		provideCompletionItems(document, position, token, context) {
+			return new vscode.CompletionList(registers);
+		}
+	}, "qwertyuiopasdfghjklzxcvbnm");
+
+	context.subscriptions.push(disposable_completion_regs);
 }
 
 // this method is called when your extension is deactivated
