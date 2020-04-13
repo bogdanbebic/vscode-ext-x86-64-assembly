@@ -51,7 +51,23 @@ export function activate(context: vscode.ExtensionContext) {
 	}, "qwertyuiopasdfghjklzxcvbnm");
 
 	context.subscriptions.push(disposable_completion_instructions);
+
+	let disposable_hover_instructions = vscode.languages.registerHoverProvider('asm', {
+		provideHover(document, position, token) {
+			let currentWord = document.getText(document.getWordRangeAtPosition(position));
+			let index = instructions.map((e: { label: any; }) => e.label).indexOf(currentWord);
+			if (index != -1) {
+				return new vscode.Hover(
+					currentWord + ' - cpu instruction - brief: ' 
+					+ instructions[index].documentation
+				);
+			}
+
+			return undefined;
+		}
+	});
 	
+	context.subscriptions.push(disposable_hover_instructions)
 }
 
 // this method is called when your extension is deactivated
