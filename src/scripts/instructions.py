@@ -16,7 +16,8 @@ def convert_to_json(instructions : list) -> str:
     instructions_str = json.dumps([{
             "label": inst[0].lower(), 
             "detail": "CPU instruction",
-            "documentation": inst[1].strip()
+            "documentation": inst[1].strip(),
+            "insertText": inst[0].lower() + " "
         } for inst in instructions])
 
     return instructions_str

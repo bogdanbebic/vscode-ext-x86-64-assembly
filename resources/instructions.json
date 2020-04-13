@@ -2,1496 +2,1795 @@
     {
         "label": "bswap",
         "detail": "CPU instruction",
-        "documentation": "Byte swap"
+        "documentation": "Byte swap",
+        "insertText": "bswap "
     },
     {
         "label": "movbe",
         "detail": "CPU instruction",
-        "documentation": "Move data after swapping data bytes"
+        "documentation": "Move data after swapping data bytes",
+        "insertText": "movbe "
     },
     {
         "label": "mov",
         "detail": "CPU instruction",
-        "documentation": "Move data between general-purpose registers, segment registers, memory, and from immediate to general-purpose registers"
+        "documentation": "Move data between general-purpose registers, segment registers, memory, and from immediate to general-purpose registers",
+        "insertText": "mov "
     },
     {
         "label": "movzx",
         "detail": "CPU instruction",
-        "documentation": "Move and zero extend"
+        "documentation": "Move and zero extend",
+        "insertText": "movzx "
     },
     {
         "label": "movsx",
         "detail": "CPU instruction",
-        "documentation": "Move and sign extend"
+        "documentation": "Move and sign extend",
+        "insertText": "movsx "
     },
     {
         "label": "movsxd",
         "detail": "CPU instruction",
-        "documentation": "Move and sign extend"
+        "documentation": "Move and sign extend",
+        "insertText": "movsxd "
     },
     {
         "label": "cmove",
         "detail": "CPU instruction",
-        "documentation": "Conditional move if equal"
+        "documentation": "Conditional move if equal",
+        "insertText": "cmove "
     },
     {
         "label": "cmova",
         "detail": "CPU instruction",
-        "documentation": "Conditional move if above"
+        "documentation": "Conditional move if above",
+        "insertText": "cmova "
     },
     {
         "label": "cmovae",
         "detail": "CPU instruction",
-        "documentation": "Conditional move if above or equal"
+        "documentation": "Conditional move if above or equal",
+        "insertText": "cmovae "
     },
     {
         "label": "cmovb",
         "detail": "CPU instruction",
-        "documentation": "Conditional move if below"
+        "documentation": "Conditional move if below",
+        "insertText": "cmovb "
     },
     {
         "label": "cmovbe",
         "detail": "CPU instruction",
-        "documentation": "Conditional move if below or equal"
+        "documentation": "Conditional move if below or equal",
+        "insertText": "cmovbe "
     },
     {
         "label": "cmovg",
         "detail": "CPU instruction",
-        "documentation": "Conditional move if greater"
+        "documentation": "Conditional move if greater",
+        "insertText": "cmovg "
     },
     {
         "label": "cmovge",
         "detail": "CPU instruction",
-        "documentation": "Conditional move if greater or equal"
+        "documentation": "Conditional move if greater or equal",
+        "insertText": "cmovge "
     },
     {
         "label": "cmovl",
         "detail": "CPU instruction",
-        "documentation": "Conditional move if less"
+        "documentation": "Conditional move if less",
+        "insertText": "cmovl "
     },
     {
         "label": "cmovle",
         "detail": "CPU instruction",
-        "documentation": "Conditional move if less or equal"
+        "documentation": "Conditional move if less or equal",
+        "insertText": "cmovle "
     },
     {
         "label": "cmovz",
         "detail": "CPU instruction",
-        "documentation": "Conditional move if zero"
+        "documentation": "Conditional move if zero",
+        "insertText": "cmovz "
     },
     {
         "label": "cmovc",
         "detail": "CPU instruction",
-        "documentation": "Conditional move if carry"
+        "documentation": "Conditional move if carry",
+        "insertText": "cmovc "
     },
     {
         "label": "cmovo",
         "detail": "CPU instruction",
-        "documentation": "Conditional move if overflow"
+        "documentation": "Conditional move if overflow",
+        "insertText": "cmovo "
     },
     {
         "label": "cmovs",
         "detail": "CPU instruction",
-        "documentation": "Conditional move if sign (negative)"
+        "documentation": "Conditional move if sign (negative)",
+        "insertText": "cmovs "
     },
     {
         "label": "cmovp",
         "detail": "CPU instruction",
-        "documentation": "Conditional move if parity"
+        "documentation": "Conditional move if parity",
+        "insertText": "cmovp "
     },
     {
         "label": "cmovne",
         "detail": "CPU instruction",
-        "documentation": "Conditional move if not equal"
+        "documentation": "Conditional move if not equal",
+        "insertText": "cmovne "
     },
     {
         "label": "cmovna",
         "detail": "CPU instruction",
-        "documentation": "Conditional move if not above"
+        "documentation": "Conditional move if not above",
+        "insertText": "cmovna "
     },
     {
         "label": "cmovnae",
         "detail": "CPU instruction",
-        "documentation": "Conditional move if not above or equal"
+        "documentation": "Conditional move if not above or equal",
+        "insertText": "cmovnae "
     },
     {
         "label": "cmovnb",
         "detail": "CPU instruction",
-        "documentation": "Conditional move if not below"
+        "documentation": "Conditional move if not below",
+        "insertText": "cmovnb "
     },
     {
         "label": "cmovnbe",
         "detail": "CPU instruction",
-        "documentation": "Conditional move if not below or equal"
+        "documentation": "Conditional move if not below or equal",
+        "insertText": "cmovnbe "
     },
     {
         "label": "cmovng",
         "detail": "CPU instruction",
-        "documentation": "Conditional move if not greater"
+        "documentation": "Conditional move if not greater",
+        "insertText": "cmovng "
     },
     {
         "label": "cmovnge",
         "detail": "CPU instruction",
-        "documentation": "Conditional move if not greater or equal"
+        "documentation": "Conditional move if not greater or equal",
+        "insertText": "cmovnge "
     },
     {
         "label": "cmovnl",
         "detail": "CPU instruction",
-        "documentation": "Conditional move if not less"
+        "documentation": "Conditional move if not less",
+        "insertText": "cmovnl "
     },
     {
         "label": "cmovnle",
         "detail": "CPU instruction",
-        "documentation": "Conditional move if not less or equal"
+        "documentation": "Conditional move if not less or equal",
+        "insertText": "cmovnle "
     },
     {
         "label": "cmovnz",
         "detail": "CPU instruction",
-        "documentation": "Conditional move if not zero"
+        "documentation": "Conditional move if not zero",
+        "insertText": "cmovnz "
     },
     {
         "label": "cmovnc",
         "detail": "CPU instruction",
-        "documentation": "Conditional move if not carry"
+        "documentation": "Conditional move if not carry",
+        "insertText": "cmovnc "
     },
     {
         "label": "cmovno",
         "detail": "CPU instruction",
-        "documentation": "Conditional move if not overflow"
+        "documentation": "Conditional move if not overflow",
+        "insertText": "cmovno "
     },
     {
         "label": "cmovns",
         "detail": "CPU instruction",
-        "documentation": "Conditional move if not sign (non-negative)"
+        "documentation": "Conditional move if not sign (non-negative)",
+        "insertText": "cmovns "
     },
     {
         "label": "cmovnp",
         "detail": "CPU instruction",
-        "documentation": "Conditional move if not parity"
+        "documentation": "Conditional move if not parity",
+        "insertText": "cmovnp "
     },
     {
         "label": "cmovpe",
         "detail": "CPU instruction",
-        "documentation": "Conditional move if parity even"
+        "documentation": "Conditional move if parity even",
+        "insertText": "cmovpe "
     },
     {
         "label": "cmovpo",
         "detail": "CPU instruction",
-        "documentation": "Conditional move if parity odd"
+        "documentation": "Conditional move if parity odd",
+        "insertText": "cmovpo "
     },
     {
         "label": "cbw",
         "detail": "CPU instruction",
-        "documentation": "Convert byte to word (sign-extend of AL to AX)"
+        "documentation": "Convert byte to word (sign-extend of AL to AX)",
+        "insertText": "cbw "
     },
     {
         "label": "cwd",
         "detail": "CPU instruction",
-        "documentation": "Convert word to double word (sign-extend of AX to DX:AX)"
+        "documentation": "Convert word to double word (sign-extend of AX to DX:AX)",
+        "insertText": "cwd "
     },
     {
         "label": "cdq",
         "detail": "CPU instruction",
-        "documentation": "Convert double word to quad word (sign-extend of EAX to EDX:EAX)"
+        "documentation": "Convert double word to quad word (sign-extend of EAX to EDX:EAX)",
+        "insertText": "cdq "
     },
     {
         "label": "cqo",
         "detail": "CPU instruction",
-        "documentation": "Convert quad word to octal word (sign-extend of RAX to RDX:RAX)"
+        "documentation": "Convert quad word to octal word (sign-extend of RAX to RDX:RAX)",
+        "insertText": "cqo "
     },
     {
         "label": "cwde",
         "detail": "CPU instruction",
-        "documentation": "Convert word to double word (sign-extend of AX to EAX)"
+        "documentation": "Convert word to double word (sign-extend of AX to EAX)",
+        "insertText": "cwde "
     },
     {
         "label": "cdqe",
         "detail": "CPU instruction",
-        "documentation": "Convert double word to quad word (sign-extend of EAX to RAX)"
+        "documentation": "Convert double word to quad word (sign-extend of EAX to RAX)",
+        "insertText": "cdqe "
     },
     {
         "label": "push",
         "detail": "CPU instruction",
-        "documentation": "Push onto stack"
+        "documentation": "Push onto stack",
+        "insertText": "push "
     },
     {
         "label": "pusha",
         "detail": "CPU instruction",
-        "documentation": "Push general-purpose registers: AX, CX, DX, BX, SP, BP, SI, DI onto stack"
+        "documentation": "Push general-purpose registers: AX, CX, DX, BX, SP, BP, SI, DI onto stack",
+        "insertText": "pusha "
     },
     {
         "label": "pushad",
         "detail": "CPU instruction",
-        "documentation": "Push general-purpose registers: EAX, ECX, EDX, EBX, ESP, EBP, ESI, EDI onto stack"
+        "documentation": "Push general-purpose registers: EAX, ECX, EDX, EBX, ESP, EBP, ESI, EDI onto stack",
+        "insertText": "pushad "
     },
     {
         "label": "pop",
         "detail": "CPU instruction",
-        "documentation": "Pop off of stack"
+        "documentation": "Pop off of stack",
+        "insertText": "pop "
     },
     {
         "label": "popa",
         "detail": "CPU instruction",
-        "documentation": "Pop general-purpose registers: DI, SI, BP, BX, DX, CX, AX from stack"
+        "documentation": "Pop general-purpose registers: DI, SI, BP, BX, DX, CX, AX from stack",
+        "insertText": "popa "
     },
     {
         "label": "popad",
         "detail": "CPU instruction",
-        "documentation": "Pop general-purpose registers: EDI, ESI, EBP, EBX, EDX, ECX, EAX from stack"
+        "documentation": "Pop general-purpose registers: EDI, ESI, EBP, EBX, EDX, ECX, EAX from stack",
+        "insertText": "popad "
     },
     {
         "label": "xlatb",
         "detail": "CPU instruction",
-        "documentation": "Table lookup translation"
+        "documentation": "Table lookup translation",
+        "insertText": "xlatb "
     },
     {
         "label": "xchg",
         "detail": "CPU instruction",
-        "documentation": "Exchange"
+        "documentation": "Exchange",
+        "insertText": "xchg "
     },
     {
         "label": "xadd",
         "detail": "CPU instruction",
-        "documentation": "Exchange and add"
+        "documentation": "Exchange and add",
+        "insertText": "xadd "
     },
     {
         "label": "cmpxchg",
         "detail": "CPU instruction",
-        "documentation": "Compare and exchange"
+        "documentation": "Compare and exchange",
+        "insertText": "cmpxchg "
     },
     {
         "label": "cmpxchg8b",
         "detail": "CPU instruction",
-        "documentation": "Compare and exchange 8 bytes"
+        "documentation": "Compare and exchange 8 bytes",
+        "insertText": "cmpxchg8b "
     },
     {
         "label": "cmpxchg16b",
         "detail": "CPU instruction",
-        "documentation": "Compare and exchange 16 bytes"
+        "documentation": "Compare and exchange 16 bytes",
+        "insertText": "cmpxchg16b "
     },
     {
         "label": "adcx",
         "detail": "CPU instruction",
-        "documentation": "Unsigned integer add with carry"
+        "documentation": "Unsigned integer add with carry",
+        "insertText": "adcx "
     },
     {
         "label": "adox",
         "detail": "CPU instruction",
-        "documentation": "Unsigned integer add with overflow"
+        "documentation": "Unsigned integer add with overflow",
+        "insertText": "adox "
     },
     {
         "label": "inc",
         "detail": "CPU instruction",
-        "documentation": "Increment"
+        "documentation": "Increment",
+        "insertText": "inc "
     },
     {
         "label": "add",
         "detail": "CPU instruction",
-        "documentation": "Add"
+        "documentation": "Add",
+        "insertText": "add "
     },
     {
         "label": "adc",
         "detail": "CPU instruction",
-        "documentation": "Add with carry"
+        "documentation": "Add with carry",
+        "insertText": "adc "
     },
     {
         "label": "dec",
         "detail": "CPU instruction",
-        "documentation": "Decrement"
+        "documentation": "Decrement",
+        "insertText": "dec "
     },
     {
         "label": "sub",
         "detail": "CPU instruction",
-        "documentation": "Subtract"
+        "documentation": "Subtract",
+        "insertText": "sub "
     },
     {
         "label": "sbb",
         "detail": "CPU instruction",
-        "documentation": "Subtract with borrow"
+        "documentation": "Subtract with borrow",
+        "insertText": "sbb "
     },
     {
         "label": "mul",
         "detail": "CPU instruction",
-        "documentation": "Unsigned multiply"
+        "documentation": "Unsigned multiply",
+        "insertText": "mul "
     },
     {
         "label": "imul",
         "detail": "CPU instruction",
-        "documentation": "Signed multiply"
+        "documentation": "Signed multiply",
+        "insertText": "imul "
     },
     {
         "label": "div",
         "detail": "CPU instruction",
-        "documentation": "Unsigned divide"
+        "documentation": "Unsigned divide",
+        "insertText": "div "
     },
     {
         "label": "idiv",
         "detail": "CPU instruction",
-        "documentation": "Signed divide"
+        "documentation": "Signed divide",
+        "insertText": "idiv "
     },
     {
         "label": "neg",
         "detail": "CPU instruction",
-        "documentation": "Negate"
+        "documentation": "Negate",
+        "insertText": "neg "
     },
     {
         "label": "cmp",
         "detail": "CPU instruction",
-        "documentation": "Compare"
+        "documentation": "Compare",
+        "insertText": "cmp "
     },
     {
         "label": "daa",
         "detail": "CPU instruction",
-        "documentation": "Decimal adjust after addition"
+        "documentation": "Decimal adjust after addition",
+        "insertText": "daa "
     },
     {
         "label": "das",
         "detail": "CPU instruction",
-        "documentation": "Decimal adjust after subtraction"
+        "documentation": "Decimal adjust after subtraction",
+        "insertText": "das "
     },
     {
         "label": "aaa",
         "detail": "CPU instruction",
-        "documentation": "ASCII adjust after addition"
+        "documentation": "ASCII adjust after addition",
+        "insertText": "aaa "
     },
     {
         "label": "aas",
         "detail": "CPU instruction",
-        "documentation": "ASCII adjust after subtraction"
+        "documentation": "ASCII adjust after subtraction",
+        "insertText": "aas "
     },
     {
         "label": "aam",
         "detail": "CPU instruction",
-        "documentation": "ASCII adjust after multiplication"
+        "documentation": "ASCII adjust after multiplication",
+        "insertText": "aam "
     },
     {
         "label": "aad",
         "detail": "CPU instruction",
-        "documentation": "ASCII adjust before division"
+        "documentation": "ASCII adjust before division",
+        "insertText": "aad "
     },
     {
         "label": "and",
         "detail": "CPU instruction",
-        "documentation": "Perform bitwise logical AND"
+        "documentation": "Perform bitwise logical AND",
+        "insertText": "and "
     },
     {
         "label": "or",
         "detail": "CPU instruction",
-        "documentation": "Perform bitwise logical OR"
+        "documentation": "Perform bitwise logical OR",
+        "insertText": "or "
     },
     {
         "label": "xor",
         "detail": "CPU instruction",
-        "documentation": "Perform bitwise logical exclusive OR"
+        "documentation": "Perform bitwise logical exclusive OR",
+        "insertText": "xor "
     },
     {
         "label": "not",
         "detail": "CPU instruction",
-        "documentation": "Perform bitwise logical NOT"
+        "documentation": "Perform bitwise logical NOT",
+        "insertText": "not "
     },
     {
         "label": "shl",
         "detail": "CPU instruction",
-        "documentation": "Shift logical left"
+        "documentation": "Shift logical left",
+        "insertText": "shl "
     },
     {
         "label": "shld",
         "detail": "CPU instruction",
-        "documentation": "Shift left double"
+        "documentation": "Shift left double",
+        "insertText": "shld "
     },
     {
         "label": "shr",
         "detail": "CPU instruction",
-        "documentation": "Shift logical right"
+        "documentation": "Shift logical right",
+        "insertText": "shr "
     },
     {
         "label": "shrd",
         "detail": "CPU instruction",
-        "documentation": "Shift right double"
+        "documentation": "Shift right double",
+        "insertText": "shrd "
     },
     {
         "label": "sal",
         "detail": "CPU instruction",
-        "documentation": "Shift arithmetic left"
+        "documentation": "Shift arithmetic left",
+        "insertText": "sal "
     },
     {
         "label": "sar",
         "detail": "CPU instruction",
-        "documentation": "Shift arithmetic right"
+        "documentation": "Shift arithmetic right",
+        "insertText": "sar "
     },
     {
         "label": "rol",
         "detail": "CPU instruction",
-        "documentation": "Rotate left"
+        "documentation": "Rotate left",
+        "insertText": "rol "
     },
     {
         "label": "ror",
         "detail": "CPU instruction",
-        "documentation": "Rotate right"
+        "documentation": "Rotate right",
+        "insertText": "ror "
     },
     {
         "label": "rcl",
         "detail": "CPU instruction",
-        "documentation": "Rotate through carry left"
+        "documentation": "Rotate through carry left",
+        "insertText": "rcl "
     },
     {
         "label": "rcr",
         "detail": "CPU instruction",
-        "documentation": "Rotate through carry right"
+        "documentation": "Rotate through carry right",
+        "insertText": "rcr "
     },
     {
         "label": "popcnt",
         "detail": "CPU instruction",
-        "documentation": "Compute number of bits set to 1"
+        "documentation": "Compute number of bits set to 1",
+        "insertText": "popcnt "
     },
     {
         "label": "test",
         "detail": "CPU instruction",
-        "documentation": "Logical compare"
+        "documentation": "Logical compare",
+        "insertText": "test "
     },
     {
         "label": "bt",
         "detail": "CPU instruction",
-        "documentation": "Bit test"
+        "documentation": "Bit test",
+        "insertText": "bt "
     },
     {
         "label": "bts",
         "detail": "CPU instruction",
-        "documentation": "Bit test and set"
+        "documentation": "Bit test and set",
+        "insertText": "bts "
     },
     {
         "label": "btr",
         "detail": "CPU instruction",
-        "documentation": "Bit test and reset"
+        "documentation": "Bit test and reset",
+        "insertText": "btr "
     },
     {
         "label": "btc",
         "detail": "CPU instruction",
-        "documentation": "Bit test and complement"
+        "documentation": "Bit test and complement",
+        "insertText": "btc "
     },
     {
         "label": "bsf",
         "detail": "CPU instruction",
-        "documentation": "Bit scan forward"
+        "documentation": "Bit scan forward",
+        "insertText": "bsf "
     },
     {
         "label": "bsr",
         "detail": "CPU instruction",
-        "documentation": "Bit scan reverse"
+        "documentation": "Bit scan reverse",
+        "insertText": "bsr "
     },
     {
         "label": "sete",
         "detail": "CPU instruction",
-        "documentation": "Set byte if equal"
+        "documentation": "Set byte if equal",
+        "insertText": "sete "
     },
     {
         "label": "seta",
         "detail": "CPU instruction",
-        "documentation": "Set byte if above"
+        "documentation": "Set byte if above",
+        "insertText": "seta "
     },
     {
         "label": "setae",
         "detail": "CPU instruction",
-        "documentation": "Set byte if above or equal"
+        "documentation": "Set byte if above or equal",
+        "insertText": "setae "
     },
     {
         "label": "setb",
         "detail": "CPU instruction",
-        "documentation": "Set byte if below"
+        "documentation": "Set byte if below",
+        "insertText": "setb "
     },
     {
         "label": "setbe",
         "detail": "CPU instruction",
-        "documentation": "Set byte if below or equal"
+        "documentation": "Set byte if below or equal",
+        "insertText": "setbe "
     },
     {
         "label": "setg",
         "detail": "CPU instruction",
-        "documentation": "Set byte if greater"
+        "documentation": "Set byte if greater",
+        "insertText": "setg "
     },
     {
         "label": "setge",
         "detail": "CPU instruction",
-        "documentation": "Set byte if greater or equal"
+        "documentation": "Set byte if greater or equal",
+        "insertText": "setge "
     },
     {
         "label": "setl",
         "detail": "CPU instruction",
-        "documentation": "Set byte if less"
+        "documentation": "Set byte if less",
+        "insertText": "setl "
     },
     {
         "label": "setle",
         "detail": "CPU instruction",
-        "documentation": "Set byte if less or equal"
+        "documentation": "Set byte if less or equal",
+        "insertText": "setle "
     },
     {
         "label": "setz",
         "detail": "CPU instruction",
-        "documentation": "Set byte if zero"
+        "documentation": "Set byte if zero",
+        "insertText": "setz "
     },
     {
         "label": "setc",
         "detail": "CPU instruction",
-        "documentation": "Set byte if carry"
+        "documentation": "Set byte if carry",
+        "insertText": "setc "
     },
     {
         "label": "seto",
         "detail": "CPU instruction",
-        "documentation": "Set byte if overflow"
+        "documentation": "Set byte if overflow",
+        "insertText": "seto "
     },
     {
         "label": "sets",
         "detail": "CPU instruction",
-        "documentation": "Set byte if sign (negative)"
+        "documentation": "Set byte if sign (negative)",
+        "insertText": "sets "
     },
     {
         "label": "setp",
         "detail": "CPU instruction",
-        "documentation": "Set byte if parity"
+        "documentation": "Set byte if parity",
+        "insertText": "setp "
     },
     {
         "label": "setne",
         "detail": "CPU instruction",
-        "documentation": "Set byte if not equal"
+        "documentation": "Set byte if not equal",
+        "insertText": "setne "
     },
     {
         "label": "setna",
         "detail": "CPU instruction",
-        "documentation": "Set byte if not above"
+        "documentation": "Set byte if not above",
+        "insertText": "setna "
     },
     {
         "label": "setnae",
         "detail": "CPU instruction",
-        "documentation": "Set byte if not above or equal"
+        "documentation": "Set byte if not above or equal",
+        "insertText": "setnae "
     },
     {
         "label": "setnb",
         "detail": "CPU instruction",
-        "documentation": "Set byte if not below"
+        "documentation": "Set byte if not below",
+        "insertText": "setnb "
     },
     {
         "label": "setnbe",
         "detail": "CPU instruction",
-        "documentation": "Set byte if not below or equal"
+        "documentation": "Set byte if not below or equal",
+        "insertText": "setnbe "
     },
     {
         "label": "setng",
         "detail": "CPU instruction",
-        "documentation": "Set byte if not greater"
+        "documentation": "Set byte if not greater",
+        "insertText": "setng "
     },
     {
         "label": "setnge",
         "detail": "CPU instruction",
-        "documentation": "Set byte if not greater or equal"
+        "documentation": "Set byte if not greater or equal",
+        "insertText": "setnge "
     },
     {
         "label": "setnl",
         "detail": "CPU instruction",
-        "documentation": "Set byte if not less"
+        "documentation": "Set byte if not less",
+        "insertText": "setnl "
     },
     {
         "label": "setnle",
         "detail": "CPU instruction",
-        "documentation": "Set byte if not less or equal"
+        "documentation": "Set byte if not less or equal",
+        "insertText": "setnle "
     },
     {
         "label": "setnz",
         "detail": "CPU instruction",
-        "documentation": "Set byte if not zero"
+        "documentation": "Set byte if not zero",
+        "insertText": "setnz "
     },
     {
         "label": "setnc",
         "detail": "CPU instruction",
-        "documentation": "Set byte if not carry"
+        "documentation": "Set byte if not carry",
+        "insertText": "setnc "
     },
     {
         "label": "setno",
         "detail": "CPU instruction",
-        "documentation": "Set byte if not overflow"
+        "documentation": "Set byte if not overflow",
+        "insertText": "setno "
     },
     {
         "label": "setns",
         "detail": "CPU instruction",
-        "documentation": "Set byte if not sign (non-negative)"
+        "documentation": "Set byte if not sign (non-negative)",
+        "insertText": "setns "
     },
     {
         "label": "setnp",
         "detail": "CPU instruction",
-        "documentation": "Set byte if not parity"
+        "documentation": "Set byte if not parity",
+        "insertText": "setnp "
     },
     {
         "label": "setpe",
         "detail": "CPU instruction",
-        "documentation": "Set byte if parity even"
+        "documentation": "Set byte if parity even",
+        "insertText": "setpe "
     },
     {
         "label": "setpo",
         "detail": "CPU instruction",
-        "documentation": "Set byte if parity odd"
+        "documentation": "Set byte if parity odd",
+        "insertText": "setpo "
     },
     {
         "label": "in",
         "detail": "CPU instruction",
-        "documentation": "Read from a port"
+        "documentation": "Read from a port",
+        "insertText": "in "
     },
     {
         "label": "out",
         "detail": "CPU instruction",
-        "documentation": "Write to a port"
+        "documentation": "Write to a port",
+        "insertText": "out "
     },
     {
         "label": "insb",
         "detail": "CPU instruction",
-        "documentation": "Input byte string from port"
+        "documentation": "Input byte string from port",
+        "insertText": "insb "
     },
     {
         "label": "insw",
         "detail": "CPU instruction",
-        "documentation": "Input word string from port"
+        "documentation": "Input word string from port",
+        "insertText": "insw "
     },
     {
         "label": "insd",
         "detail": "CPU instruction",
-        "documentation": "Input double word string from port"
+        "documentation": "Input double word string from port",
+        "insertText": "insd "
     },
     {
         "label": "outsb",
         "detail": "CPU instruction",
-        "documentation": "Output byte string to port"
+        "documentation": "Output byte string to port",
+        "insertText": "outsb "
     },
     {
         "label": "outsw",
         "detail": "CPU instruction",
-        "documentation": "Output word string to port"
+        "documentation": "Output word string to port",
+        "insertText": "outsw "
     },
     {
         "label": "outsd",
         "detail": "CPU instruction",
-        "documentation": "Output double word string to port"
+        "documentation": "Output double word string to port",
+        "insertText": "outsd "
     },
     {
         "label": "lodsb",
         "detail": "CPU instruction",
-        "documentation": "Load byte string"
+        "documentation": "Load byte string",
+        "insertText": "lodsb "
     },
     {
         "label": "lodsw",
         "detail": "CPU instruction",
-        "documentation": "Load word string"
+        "documentation": "Load word string",
+        "insertText": "lodsw "
     },
     {
         "label": "lodsd",
         "detail": "CPU instruction",
-        "documentation": "Load double word string"
+        "documentation": "Load double word string",
+        "insertText": "lodsd "
     },
     {
         "label": "lodsq",
         "detail": "CPU instruction",
-        "documentation": "Load quad word string"
+        "documentation": "Load quad word string",
+        "insertText": "lodsq "
     },
     {
         "label": "stosb",
         "detail": "CPU instruction",
-        "documentation": "Store byte string"
+        "documentation": "Store byte string",
+        "insertText": "stosb "
     },
     {
         "label": "stosw",
         "detail": "CPU instruction",
-        "documentation": "Store word string"
+        "documentation": "Store word string",
+        "insertText": "stosw "
     },
     {
         "label": "stosd",
         "detail": "CPU instruction",
-        "documentation": "Store double word string"
+        "documentation": "Store double word string",
+        "insertText": "stosd "
     },
     {
         "label": "stosq",
         "detail": "CPU instruction",
-        "documentation": "Store quad word string"
+        "documentation": "Store quad word string",
+        "insertText": "stosq "
     },
     {
         "label": "movsb",
         "detail": "CPU instruction",
-        "documentation": "Move byte string"
+        "documentation": "Move byte string",
+        "insertText": "movsb "
     },
     {
         "label": "movsw",
         "detail": "CPU instruction",
-        "documentation": "Move word string"
+        "documentation": "Move word string",
+        "insertText": "movsw "
     },
     {
         "label": "movsd",
         "detail": "CPU instruction",
-        "documentation": "Move double word string"
+        "documentation": "Move double word string",
+        "insertText": "movsd "
     },
     {
         "label": "movsq",
         "detail": "CPU instruction",
-        "documentation": "Move quad word string"
+        "documentation": "Move quad word string",
+        "insertText": "movsq "
     },
     {
         "label": "cmpsb",
         "detail": "CPU instruction",
-        "documentation": "Compare byte string"
+        "documentation": "Compare byte string",
+        "insertText": "cmpsb "
     },
     {
         "label": "cmpsw",
         "detail": "CPU instruction",
-        "documentation": "Compare word string"
+        "documentation": "Compare word string",
+        "insertText": "cmpsw "
     },
     {
         "label": "cmpsd",
         "detail": "CPU instruction",
-        "documentation": "Compare double word string"
+        "documentation": "Compare double word string",
+        "insertText": "cmpsd "
     },
     {
         "label": "cmpsq",
         "detail": "CPU instruction",
-        "documentation": "Compare quad word string"
+        "documentation": "Compare quad word string",
+        "insertText": "cmpsq "
     },
     {
         "label": "scasb",
         "detail": "CPU instruction",
-        "documentation": "Scan byte string"
+        "documentation": "Scan byte string",
+        "insertText": "scasb "
     },
     {
         "label": "scasw",
         "detail": "CPU instruction",
-        "documentation": "Scan word string"
+        "documentation": "Scan word string",
+        "insertText": "scasw "
     },
     {
         "label": "scasd",
         "detail": "CPU instruction",
-        "documentation": "Scan double word string"
+        "documentation": "Scan double word string",
+        "insertText": "scasd "
     },
     {
         "label": "scasq",
         "detail": "CPU instruction",
-        "documentation": "Scan quad word string"
+        "documentation": "Scan quad word string",
+        "insertText": "scasq "
     },
     {
         "label": "rep",
         "detail": "CPU instruction",
-        "documentation": "Repeat while ECX not zero"
+        "documentation": "Repeat while ECX not zero",
+        "insertText": "rep "
     },
     {
         "label": "repe",
         "detail": "CPU instruction",
-        "documentation": "Repeat while equal"
+        "documentation": "Repeat while equal",
+        "insertText": "repe "
     },
     {
         "label": "repz",
         "detail": "CPU instruction",
-        "documentation": "Repeat while zero"
+        "documentation": "Repeat while zero",
+        "insertText": "repz "
     },
     {
         "label": "repne",
         "detail": "CPU instruction",
-        "documentation": "Repeat while not equal"
+        "documentation": "Repeat while not equal",
+        "insertText": "repne "
     },
     {
         "label": "repnz",
         "detail": "CPU instruction",
-        "documentation": "Repeat while not zero"
+        "documentation": "Repeat while not zero",
+        "insertText": "repnz "
     },
     {
         "label": "jmp",
         "detail": "CPU instruction",
-        "documentation": "Jump"
+        "documentation": "Jump",
+        "insertText": "jmp "
     },
     {
         "label": "je",
         "detail": "CPU instruction",
-        "documentation": "Jump if equal"
+        "documentation": "Jump if equal",
+        "insertText": "je "
     },
     {
         "label": "ja",
         "detail": "CPU instruction",
-        "documentation": "Jump if above"
+        "documentation": "Jump if above",
+        "insertText": "ja "
     },
     {
         "label": "jae",
         "detail": "CPU instruction",
-        "documentation": "Jump if above or equal"
+        "documentation": "Jump if above or equal",
+        "insertText": "jae "
     },
     {
         "label": "jb",
         "detail": "CPU instruction",
-        "documentation": "Jump if below"
+        "documentation": "Jump if below",
+        "insertText": "jb "
     },
     {
         "label": "jbe",
         "detail": "CPU instruction",
-        "documentation": "Jump if below or equal"
+        "documentation": "Jump if below or equal",
+        "insertText": "jbe "
     },
     {
         "label": "jg",
         "detail": "CPU instruction",
-        "documentation": "Jump if greater"
+        "documentation": "Jump if greater",
+        "insertText": "jg "
     },
     {
         "label": "jge",
         "detail": "CPU instruction",
-        "documentation": "Jump if greater or equal"
+        "documentation": "Jump if greater or equal",
+        "insertText": "jge "
     },
     {
         "label": "jl",
         "detail": "CPU instruction",
-        "documentation": "Jump if less"
+        "documentation": "Jump if less",
+        "insertText": "jl "
     },
     {
         "label": "jle",
         "detail": "CPU instruction",
-        "documentation": "Jump if less or equal"
+        "documentation": "Jump if less or equal",
+        "insertText": "jle "
     },
     {
         "label": "jz",
         "detail": "CPU instruction",
-        "documentation": "Jump if zero"
+        "documentation": "Jump if zero",
+        "insertText": "jz "
     },
     {
         "label": "jc",
         "detail": "CPU instruction",
-        "documentation": "Jump if carry"
+        "documentation": "Jump if carry",
+        "insertText": "jc "
     },
     {
         "label": "jo",
         "detail": "CPU instruction",
-        "documentation": "Jump if overflow"
+        "documentation": "Jump if overflow",
+        "insertText": "jo "
     },
     {
         "label": "js",
         "detail": "CPU instruction",
-        "documentation": "Jump if sign (negative)"
+        "documentation": "Jump if sign (negative)",
+        "insertText": "js "
     },
     {
         "label": "jp",
         "detail": "CPU instruction",
-        "documentation": "Jump if parity"
+        "documentation": "Jump if parity",
+        "insertText": "jp "
     },
     {
         "label": "jne",
         "detail": "CPU instruction",
-        "documentation": "Jump if not equal"
+        "documentation": "Jump if not equal",
+        "insertText": "jne "
     },
     {
         "label": "jna",
         "detail": "CPU instruction",
-        "documentation": "Jump if not above"
+        "documentation": "Jump if not above",
+        "insertText": "jna "
     },
     {
         "label": "jnae",
         "detail": "CPU instruction",
-        "documentation": "Jump if not above or equal"
+        "documentation": "Jump if not above or equal",
+        "insertText": "jnae "
     },
     {
         "label": "jnb",
         "detail": "CPU instruction",
-        "documentation": "Jump if not below"
+        "documentation": "Jump if not below",
+        "insertText": "jnb "
     },
     {
         "label": "jnbe",
         "detail": "CPU instruction",
-        "documentation": "Jump if not below or equal"
+        "documentation": "Jump if not below or equal",
+        "insertText": "jnbe "
     },
     {
         "label": "jng",
         "detail": "CPU instruction",
-        "documentation": "Jump if not greater"
+        "documentation": "Jump if not greater",
+        "insertText": "jng "
     },
     {
         "label": "jnge",
         "detail": "CPU instruction",
-        "documentation": "Jump if not greater or equal"
+        "documentation": "Jump if not greater or equal",
+        "insertText": "jnge "
     },
     {
         "label": "jnl",
         "detail": "CPU instruction",
-        "documentation": "Jump if not less"
+        "documentation": "Jump if not less",
+        "insertText": "jnl "
     },
     {
         "label": "jnle",
         "detail": "CPU instruction",
-        "documentation": "Jump if not less or equal"
+        "documentation": "Jump if not less or equal",
+        "insertText": "jnle "
     },
     {
         "label": "jnz",
         "detail": "CPU instruction",
-        "documentation": "Jump if not zero"
+        "documentation": "Jump if not zero",
+        "insertText": "jnz "
     },
     {
         "label": "jnc",
         "detail": "CPU instruction",
-        "documentation": "Jump if not carry"
+        "documentation": "Jump if not carry",
+        "insertText": "jnc "
     },
     {
         "label": "jno",
         "detail": "CPU instruction",
-        "documentation": "Jump if not overflow"
+        "documentation": "Jump if not overflow",
+        "insertText": "jno "
     },
     {
         "label": "jns",
         "detail": "CPU instruction",
-        "documentation": "Jump if not sign (non-negative)"
+        "documentation": "Jump if not sign (non-negative)",
+        "insertText": "jns "
     },
     {
         "label": "jnp",
         "detail": "CPU instruction",
-        "documentation": "Jump if not parity"
+        "documentation": "Jump if not parity",
+        "insertText": "jnp "
     },
     {
         "label": "jpe",
         "detail": "CPU instruction",
-        "documentation": "Jump if parity even"
+        "documentation": "Jump if parity even",
+        "insertText": "jpe "
     },
     {
         "label": "jpo",
         "detail": "CPU instruction",
-        "documentation": "Jump if parity odd"
+        "documentation": "Jump if parity odd",
+        "insertText": "jpo "
     },
     {
         "label": "jcxz",
         "detail": "CPU instruction",
-        "documentation": "Jump register CX zero"
+        "documentation": "Jump register CX zero",
+        "insertText": "jcxz "
     },
     {
         "label": "jecxz",
         "detail": "CPU instruction",
-        "documentation": "Jump register ECX zero"
+        "documentation": "Jump register ECX zero",
+        "insertText": "jecxz "
     },
     {
         "label": "loop",
         "detail": "CPU instruction",
-        "documentation": "Loop with ECX counter"
+        "documentation": "Loop with ECX counter",
+        "insertText": "loop "
     },
     {
         "label": "loope",
         "detail": "CPU instruction",
-        "documentation": "Loop with ECX and equal"
+        "documentation": "Loop with ECX and equal",
+        "insertText": "loope "
     },
     {
         "label": "loopz",
         "detail": "CPU instruction",
-        "documentation": "Loop with ECX and zero"
+        "documentation": "Loop with ECX and zero",
+        "insertText": "loopz "
     },
     {
         "label": "loopne",
         "detail": "CPU instruction",
-        "documentation": "Loop with ECX and not equal"
+        "documentation": "Loop with ECX and not equal",
+        "insertText": "loopne "
     },
     {
         "label": "loopnz",
         "detail": "CPU instruction",
-        "documentation": "Loop with ECX and not zero"
+        "documentation": "Loop with ECX and not zero",
+        "insertText": "loopnz "
     },
     {
         "label": "call",
         "detail": "CPU instruction",
-        "documentation": "Call procedure"
+        "documentation": "Call procedure",
+        "insertText": "call "
     },
     {
         "label": "ret",
         "detail": "CPU instruction",
-        "documentation": "Return"
+        "documentation": "Return",
+        "insertText": "ret "
     },
     {
         "label": "iret",
         "detail": "CPU instruction",
-        "documentation": "Return from interrupt"
+        "documentation": "Return from interrupt",
+        "insertText": "iret "
     },
     {
         "label": "int",
         "detail": "CPU instruction",
-        "documentation": "Software interrupt"
+        "documentation": "Software interrupt",
+        "insertText": "int "
     },
     {
         "label": "into",
         "detail": "CPU instruction",
-        "documentation": "Interrupt on overflow"
+        "documentation": "Interrupt on overflow",
+        "insertText": "into "
     },
     {
         "label": "bound",
         "detail": "CPU instruction",
-        "documentation": "Detect value out of range"
+        "documentation": "Detect value out of range",
+        "insertText": "bound "
     },
     {
         "label": "enter",
         "detail": "CPU instruction",
-        "documentation": "High-level procedure entry"
+        "documentation": "High-level procedure entry",
+        "insertText": "enter "
     },
     {
         "label": "leave",
         "detail": "CPU instruction",
-        "documentation": "High-level procedure exit"
+        "documentation": "High-level procedure exit",
+        "insertText": "leave "
     },
     {
         "label": "sti",
         "detail": "CPU instruction",
-        "documentation": "Set interrupt flag"
+        "documentation": "Set interrupt flag",
+        "insertText": "sti "
     },
     {
         "label": "std",
         "detail": "CPU instruction",
-        "documentation": "Set direction flag"
+        "documentation": "Set direction flag",
+        "insertText": "std "
     },
     {
         "label": "stc",
         "detail": "CPU instruction",
-        "documentation": "Set carry flag"
+        "documentation": "Set carry flag",
+        "insertText": "stc "
     },
     {
         "label": "cli",
         "detail": "CPU instruction",
-        "documentation": "Clear the interrupt flag"
+        "documentation": "Clear the interrupt flag",
+        "insertText": "cli "
     },
     {
         "label": "cld",
         "detail": "CPU instruction",
-        "documentation": "Clear the direction flag"
+        "documentation": "Clear the direction flag",
+        "insertText": "cld "
     },
     {
         "label": "clc",
         "detail": "CPU instruction",
-        "documentation": "Clear the carry flag"
+        "documentation": "Clear the carry flag",
+        "insertText": "clc "
     },
     {
         "label": "cmc",
         "detail": "CPU instruction",
-        "documentation": "Complement the carry flag"
+        "documentation": "Complement the carry flag",
+        "insertText": "cmc "
     },
     {
         "label": "stac",
         "detail": "CPU instruction",
-        "documentation": "Set AC flag in EFLAGS register"
+        "documentation": "Set AC flag in EFLAGS register",
+        "insertText": "stac "
     },
     {
         "label": "clac",
         "detail": "CPU instruction",
-        "documentation": "Clear AC flag in EFLAGS register"
+        "documentation": "Clear AC flag in EFLAGS register",
+        "insertText": "clac "
     },
     {
         "label": "lahf",
         "detail": "CPU instruction",
-        "documentation": "Load flags into AH register"
+        "documentation": "Load flags into AH register",
+        "insertText": "lahf "
     },
     {
         "label": "sahf",
         "detail": "CPU instruction",
-        "documentation": "Store AH register into flags"
+        "documentation": "Store AH register into flags",
+        "insertText": "sahf "
     },
     {
         "label": "pushf",
         "detail": "CPU instruction",
-        "documentation": "Push lower 16 bits of EFLAGS onto stack"
+        "documentation": "Push lower 16 bits of EFLAGS onto stack",
+        "insertText": "pushf "
     },
     {
         "label": "pushfd",
         "detail": "CPU instruction",
-        "documentation": "Push EFLAGS onto stack"
+        "documentation": "Push EFLAGS onto stack",
+        "insertText": "pushfd "
     },
     {
         "label": "pushfq",
         "detail": "CPU instruction",
-        "documentation": "Push RFLAGS onto stack"
+        "documentation": "Push RFLAGS onto stack",
+        "insertText": "pushfq "
     },
     {
         "label": "popf",
         "detail": "CPU instruction",
-        "documentation": "Push lower 16 bits of EFLAGS from stack"
+        "documentation": "Push lower 16 bits of EFLAGS from stack",
+        "insertText": "popf "
     },
     {
         "label": "popfd",
         "detail": "CPU instruction",
-        "documentation": "Pop EFLAGS from stack"
+        "documentation": "Pop EFLAGS from stack",
+        "insertText": "popfd "
     },
     {
         "label": "popfq",
         "detail": "CPU instruction",
-        "documentation": "Pop RFLAGS from stack"
+        "documentation": "Pop RFLAGS from stack",
+        "insertText": "popfq "
     },
     {
         "label": "lea",
         "detail": "CPU instruction",
-        "documentation": "Load effective address"
+        "documentation": "Load effective address",
+        "insertText": "lea "
     },
     {
         "label": "nop",
         "detail": "CPU instruction",
-        "documentation": "No operation"
+        "documentation": "No operation",
+        "insertText": "nop "
     },
     {
         "label": "ud2",
         "detail": "CPU instruction",
-        "documentation": "Undefined instruction"
+        "documentation": "Undefined instruction",
+        "insertText": "ud2 "
     },
     {
         "label": "rdpid",
         "detail": "CPU instruction",
-        "documentation": "Read processor ID"
+        "documentation": "Read processor ID",
+        "insertText": "rdpid "
     },
     {
         "label": "cpuid",
         "detail": "CPU instruction",
-        "documentation": "Processor identification"
+        "documentation": "Processor identification",
+        "insertText": "cpuid "
     },
     {
         "label": "crc32",
         "detail": "CPU instruction",
-        "documentation": "Provides hardware acceleration to calculate cyclic redundancy checks for fast and efficient implementation of data integrity protocols"
+        "documentation": "Provides hardware acceleration to calculate cyclic redundancy checks for fast and efficient implementation of data integrity protocols",
+        "insertText": "crc32 "
     },
     {
         "label": "rdrand",
         "detail": "CPU instruction",
-        "documentation": "Retrieves a random number generated from hardware"
+        "documentation": "Retrieves a random number generated from hardware",
+        "insertText": "rdrand "
     },
     {
         "label": "rdseed",
         "detail": "CPU instruction",
-        "documentation": "Retrieves a random number generated from hardware"
+        "documentation": "Retrieves a random number generated from hardware",
+        "insertText": "rdseed "
     },
     {
         "label": "bextr",
         "detail": "CPU instruction",
-        "documentation": "Contiguous bitwise extract"
+        "documentation": "Contiguous bitwise extract",
+        "insertText": "bextr "
     },
     {
         "label": "blsi",
         "detail": "CPU instruction",
-        "documentation": "Extract lowest set bit"
+        "documentation": "Extract lowest set bit",
+        "insertText": "blsi "
     },
     {
         "label": "blsr",
         "detail": "CPU instruction",
-        "documentation": "Reset lowest set bit"
+        "documentation": "Reset lowest set bit",
+        "insertText": "blsr "
     },
     {
         "label": "blsmsk",
         "detail": "CPU instruction",
-        "documentation": "Set all lower bits below first set bit to 1"
+        "documentation": "Set all lower bits below first set bit to 1",
+        "insertText": "blsmsk "
     },
     {
         "label": "bzhi",
         "detail": "CPU instruction",
-        "documentation": "Zero high bits starting from specified bit position"
+        "documentation": "Zero high bits starting from specified bit position",
+        "insertText": "bzhi "
     },
     {
         "label": "pext",
         "detail": "CPU instruction",
-        "documentation": "Parallel extraction of bits using a mask"
+        "documentation": "Parallel extraction of bits using a mask",
+        "insertText": "pext "
     },
     {
         "label": "pdep",
         "detail": "CPU instruction",
-        "documentation": "Parallel deposit of bits using a mask"
+        "documentation": "Parallel deposit of bits using a mask",
+        "insertText": "pdep "
     },
     {
         "label": "tzcnt",
         "detail": "CPU instruction",
-        "documentation": "Count the number trailing zero bits"
+        "documentation": "Count the number trailing zero bits",
+        "insertText": "tzcnt "
     },
     {
         "label": "lzcnt",
         "detail": "CPU instruction",
-        "documentation": "Count the number leading zero bits"
+        "documentation": "Count the number leading zero bits",
+        "insertText": "lzcnt "
     },
     {
         "label": "andn",
         "detail": "CPU instruction",
-        "documentation": "Bitwise AND of first source with inverted 2nd source operands"
+        "documentation": "Bitwise AND of first source with inverted 2nd source operands",
+        "insertText": "andn "
     },
     {
         "label": "mulx",
         "detail": "CPU instruction",
-        "documentation": "Unsigned multiply without affecting flags"
+        "documentation": "Unsigned multiply without affecting flags",
+        "insertText": "mulx "
     },
     {
         "label": "shlx",
         "detail": "CPU instruction",
-        "documentation": "Shift logic left without affecting flags"
+        "documentation": "Shift logic left without affecting flags",
+        "insertText": "shlx "
     },
     {
         "label": "shrx",
         "detail": "CPU instruction",
-        "documentation": "Shift logic right without affecting flags"
+        "documentation": "Shift logic right without affecting flags",
+        "insertText": "shrx "
     },
     {
         "label": "sarx",
         "detail": "CPU instruction",
-        "documentation": "Shift arithmetic right without affecting flags"
+        "documentation": "Shift arithmetic right without affecting flags",
+        "insertText": "sarx "
     },
     {
         "label": "rorx",
         "detail": "CPU instruction",
-        "documentation": "Rotate right without affecting flags"
+        "documentation": "Rotate right without affecting flags",
+        "insertText": "rorx "
     },
     {
         "label": "lds",
         "detail": "CPU instruction",
-        "documentation": "Load far pointer using DS"
+        "documentation": "Load far pointer using DS",
+        "insertText": "lds "
     },
     {
         "label": "les",
         "detail": "CPU instruction",
-        "documentation": "Load far pointer using ES"
+        "documentation": "Load far pointer using ES",
+        "insertText": "les "
     },
     {
         "label": "lfs",
         "detail": "CPU instruction",
-        "documentation": "Load far pointer using FS"
+        "documentation": "Load far pointer using FS",
+        "insertText": "lfs "
     },
     {
         "label": "lgs",
         "detail": "CPU instruction",
-        "documentation": "Load far pointer using GS"
+        "documentation": "Load far pointer using GS",
+        "insertText": "lgs "
     },
     {
         "label": "lss",
         "detail": "CPU instruction",
-        "documentation": "Load far pointer using SS"
+        "documentation": "Load far pointer using SS",
+        "insertText": "lss "
     },
     {
         "label": "lldt",
         "detail": "CPU instruction",
-        "documentation": "Load local descriptor table (LDT) register"
+        "documentation": "Load local descriptor table (LDT) register",
+        "insertText": "lldt "
     },
     {
         "label": "sldt",
         "detail": "CPU instruction",
-        "documentation": "Store local descriptor table (LDT) register"
+        "documentation": "Store local descriptor table (LDT) register",
+        "insertText": "sldt "
     },
     {
         "label": "lgdt",
         "detail": "CPU instruction",
-        "documentation": "Load global descriptor table (GDT) register"
+        "documentation": "Load global descriptor table (GDT) register",
+        "insertText": "lgdt "
     },
     {
         "label": "sgdt",
         "detail": "CPU instruction",
-        "documentation": "Store global descriptor table (GDT) register"
+        "documentation": "Store global descriptor table (GDT) register",
+        "insertText": "sgdt "
     },
     {
         "label": "lidt",
         "detail": "CPU instruction",
-        "documentation": "Load interrupt descriptor table (IDT) register"
+        "documentation": "Load interrupt descriptor table (IDT) register",
+        "insertText": "lidt "
     },
     {
         "label": "sidt",
         "detail": "CPU instruction",
-        "documentation": "Store interrupt descriptor table (IDT) register"
+        "documentation": "Store interrupt descriptor table (IDT) register",
+        "insertText": "sidt "
     },
     {
         "label": "lmsw",
         "detail": "CPU instruction",
-        "documentation": "Load machine status word"
+        "documentation": "Load machine status word",
+        "insertText": "lmsw "
     },
     {
         "label": "smsw",
         "detail": "CPU instruction",
-        "documentation": "Store machine status word"
+        "documentation": "Store machine status word",
+        "insertText": "smsw "
     },
     {
         "label": "ltr",
         "detail": "CPU instruction",
-        "documentation": "Load task register"
+        "documentation": "Load task register",
+        "insertText": "ltr "
     },
     {
         "label": "str",
         "detail": "CPU instruction",
-        "documentation": "Store task register"
+        "documentation": "Store task register",
+        "insertText": "str "
     },
     {
         "label": "xsave",
         "detail": "CPU instruction",
-        "documentation": "Save processor extended states to memory"
+        "documentation": "Save processor extended states to memory",
+        "insertText": "xsave "
     },
     {
         "label": "xsaves",
         "detail": "CPU instruction",
-        "documentation": "Save processor extended states supervisor"
+        "documentation": "Save processor extended states supervisor",
+        "insertText": "xsaves "
     },
     {
         "label": "xsavec",
         "detail": "CPU instruction",
-        "documentation": "Save processor extended states with compaction"
+        "documentation": "Save processor extended states with compaction",
+        "insertText": "xsavec "
     },
     {
         "label": "xsaveopt",
         "detail": "CPU instruction",
-        "documentation": "Save processor extended states to memory, optimized"
+        "documentation": "Save processor extended states to memory, optimized",
+        "insertText": "xsaveopt "
     },
     {
         "label": "xrstor",
         "detail": "CPU instruction",
-        "documentation": "Restore processor extended states from memory"
+        "documentation": "Restore processor extended states from memory",
+        "insertText": "xrstor "
     },
     {
         "label": "xrstors",
         "detail": "CPU instruction",
-        "documentation": "Restore processor extended states supervisor"
+        "documentation": "Restore processor extended states supervisor",
+        "insertText": "xrstors "
     },
     {
         "label": "rdmsr",
         "detail": "CPU instruction",
-        "documentation": "Read model-specific register"
+        "documentation": "Read model-specific register",
+        "insertText": "rdmsr "
     },
     {
         "label": "wrmsr",
         "detail": "CPU instruction",
-        "documentation": "Write model-specific register"
+        "documentation": "Write model-specific register",
+        "insertText": "wrmsr "
     },
     {
         "label": "xgetbv",
         "detail": "CPU instruction",
-        "documentation": "Reads the state of an extended control register"
+        "documentation": "Reads the state of an extended control register",
+        "insertText": "xgetbv "
     },
     {
         "label": "xsetbv",
         "detail": "CPU instruction",
-        "documentation": "Writes the state of an extended control register"
+        "documentation": "Writes the state of an extended control register",
+        "insertText": "xsetbv "
     },
     {
         "label": "rdfsbase",
         "detail": "CPU instruction",
-        "documentation": "Reads from FS base address at any privilege level"
+        "documentation": "Reads from FS base address at any privilege level",
+        "insertText": "rdfsbase "
     },
     {
         "label": "wrfsbase",
         "detail": "CPU instruction",
-        "documentation": "Writes to FS base address at any privilege level"
+        "documentation": "Writes to FS base address at any privilege level",
+        "insertText": "wrfsbase "
     },
     {
         "label": "rdgsbase",
         "detail": "CPU instruction",
-        "documentation": "Reads from GS base address at any privilege level"
+        "documentation": "Reads from GS base address at any privilege level",
+        "insertText": "rdgsbase "
     },
     {
         "label": "wrgsbase",
         "detail": "CPU instruction",
-        "documentation": "Writes to GS base address at any privilege level"
+        "documentation": "Writes to GS base address at any privilege level",
+        "insertText": "wrgsbase "
     },
     {
         "label": "verr",
         "detail": "CPU instruction",
-        "documentation": "Verify segment for reading"
+        "documentation": "Verify segment for reading",
+        "insertText": "verr "
     },
     {
         "label": "verw",
         "detail": "CPU instruction",
-        "documentation": "Verify segment for writing"
+        "documentation": "Verify segment for writing",
+        "insertText": "verw "
     },
     {
         "label": "mov",
         "detail": "CPU instruction",
-        "documentation": "Load and store control registers"
+        "documentation": "Load and store control registers",
+        "insertText": "mov "
     },
     {
         "label": "mov",
         "detail": "CPU instruction",
-        "documentation": "Load and store debug registers"
+        "documentation": "Load and store debug registers",
+        "insertText": "mov "
     },
     {
         "label": "lar",
         "detail": "CPU instruction",
-        "documentation": "Load access rights"
+        "documentation": "Load access rights",
+        "insertText": "lar "
     },
     {
         "label": "lsl",
         "detail": "CPU instruction",
-        "documentation": "Load segment limit"
+        "documentation": "Load segment limit",
+        "insertText": "lsl "
     },
     {
         "label": "rdpmc",
         "detail": "CPU instruction",
-        "documentation": "Read performance monitoring counter"
+        "documentation": "Read performance monitoring counter",
+        "insertText": "rdpmc "
     },
     {
         "label": "rdtsc",
         "detail": "CPU instruction",
-        "documentation": "Read time stamp counter"
+        "documentation": "Read time stamp counter",
+        "insertText": "rdtsc "
     },
     {
         "label": "rdtscp",
         "detail": "CPU instruction",
-        "documentation": "Read time stamp counter and processor ID"
+        "documentation": "Read time stamp counter and processor ID",
+        "insertText": "rdtscp "
     },
     {
         "label": "clts",
         "detail": "CPU instruction",
-        "documentation": "Clear the task-switched flag"
+        "documentation": "Clear the task-switched flag",
+        "insertText": "clts "
     },
     {
         "label": "arpl",
         "detail": "CPU instruction",
-        "documentation": "Adjust requested privilege level"
+        "documentation": "Adjust requested privilege level",
+        "insertText": "arpl "
     },
     {
         "label": "invd",
         "detail": "CPU instruction",
-        "documentation": "Invalidate cache, no write back"
+        "documentation": "Invalidate cache, no write back",
+        "insertText": "invd "
     },
     {
         "label": "wbinvd",
         "detail": "CPU instruction",
-        "documentation": "Invalidate cache, with write back"
+        "documentation": "Invalidate cache, with write back",
+        "insertText": "wbinvd "
     },
     {
         "label": "invlpg",
         "detail": "CPU instruction",
-        "documentation": "Invalidate TLB entry"
+        "documentation": "Invalidate TLB entry",
+        "insertText": "invlpg "
     },
     {
         "label": "invpcid",
         "detail": "CPU instruction",
-        "documentation": "Invalidate process-context identifier"
+        "documentation": "Invalidate process-context identifier",
+        "insertText": "invpcid "
     },
     {
         "label": "lock",
         "detail": "CPU instruction",
-        "documentation": "Lock bus (prefix)"
+        "documentation": "Lock bus (prefix)",
+        "insertText": "lock "
     },
     {
         "label": "hlt",
         "detail": "CPU instruction",
-        "documentation": "Halt processor"
+        "documentation": "Halt processor",
+        "insertText": "hlt "
     },
     {
         "label": "sysenter",
         "detail": "CPU instruction",
-        "documentation": "Fast system call, transfers to a flat protected mode kernel at CPL = 0"
+        "documentation": "Fast system call, transfers to a flat protected mode kernel at CPL = 0",
+        "insertText": "sysenter "
     },
     {
         "label": "sysexit",
         "detail": "CPU instruction",
-        "documentation": "Fast system call, transfers to a flat protected mode kernel at CPL = 3"
+        "documentation": "Fast system call, transfers to a flat protected mode kernel at CPL = 3",
+        "insertText": "sysexit "
     },
     {
         "label": "syscall",
         "detail": "CPU instruction",
-        "documentation": "Fast call to privilege level 0 system procedures"
+        "documentation": "Fast call to privilege level 0 system procedures",
+        "insertText": "syscall "
     },
     {
         "label": "sysret",
         "detail": "CPU instruction",
-        "documentation": "Return from fast system call"
+        "documentation": "Return from fast system call",
+        "insertText": "sysret "
     },
     {
         "label": "rsm",
         "detail": "CPU instruction",
-        "documentation": "Return from system management mode (SMM)"
+        "documentation": "Return from system management mode (SMM)",
+        "insertText": "rsm "
     },
     {
         "label": "swapgs",
         "detail": "CPU instruction",
-        "documentation": "Exchanges current GS base register value with value in MSR address 0xC0000102"
+        "documentation": "Exchanges current GS base register value with value in MSR address 0xC0000102",
+        "insertText": "swapgs "
     },
     {
         "label": "rdpkru",
         "detail": "CPU instruction",
-        "documentation": "Read protection key rights for user pages"
+        "documentation": "Read protection key rights for user pages",
+        "insertText": "rdpkru "
     },
     {
         "label": "wrpkru",
         "detail": "CPU instruction",
-        "documentation": "Write data to user page key register"
+        "documentation": "Write data to user page key register",
+        "insertText": "wrpkru "
     }
 ]

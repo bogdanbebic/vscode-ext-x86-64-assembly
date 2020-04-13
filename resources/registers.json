@@ -1,1 +1,258 @@
-[{"label": "rax"}, {"label": "eax"}, {"label": "ax"}, {"label": "al"}, {"label": "rcx"}, {"label": "ecx"}, {"label": "cx"}, {"label": "cl"}, {"label": "rdx"}, {"label": "edx"}, {"label": "dx"}, {"label": "dl"}, {"label": "rbx"}, {"label": "ebx"}, {"label": "bx"}, {"label": "bl"}, {"label": "rsi"}, {"label": "esi"}, {"label": "si"}, {"label": "sil"}, {"label": "rdi"}, {"label": "edi"}, {"label": "di"}, {"label": "dil"}, {"label": "rsp"}, {"label": "esp"}, {"label": "sp"}, {"label": "spl"}, {"label": "rbp"}, {"label": "ebp"}, {"label": "bp"}, {"label": "bpl"}, {"label": "r8"}, {"label": "r8d"}, {"label": "r8w"}, {"label": "r8b"}, {"label": "r9"}, {"label": "r9d"}, {"label": "r9w"}, {"label": "r9b"}, {"label": "r10"}, {"label": "r10d"}, {"label": "r10w"}, {"label": "r10b"}, {"label": "r11"}, {"label": "r11d"}, {"label": "r11w"}, {"label": "r11b"}, {"label": "r12"}, {"label": "r12d"}, {"label": "r12w"}, {"label": "r12b"}, {"label": "r13"}, {"label": "r13d"}, {"label": "r13w"}, {"label": "r13b"}, {"label": "r14"}, {"label": "r14d"}, {"label": "r14w"}, {"label": "r14b"}, {"label": "r15"}, {"label": "r15d"}, {"label": "r15w"}, {"label": "r15b"}]
+[
+    {
+        "label": "rax",
+        "detail": "CPU register"
+    },
+    {
+        "label": "eax",
+        "detail": "CPU register"
+    },
+    {
+        "label": "ax",
+        "detail": "CPU register"
+    },
+    {
+        "label": "al",
+        "detail": "CPU register"
+    },
+    {
+        "label": "rcx",
+        "detail": "CPU register"
+    },
+    {
+        "label": "ecx",
+        "detail": "CPU register"
+    },
+    {
+        "label": "cx",
+        "detail": "CPU register"
+    },
+    {
+        "label": "cl",
+        "detail": "CPU register"
+    },
+    {
+        "label": "rdx",
+        "detail": "CPU register"
+    },
+    {
+        "label": "edx",
+        "detail": "CPU register"
+    },
+    {
+        "label": "dx",
+        "detail": "CPU register"
+    },
+    {
+        "label": "dl",
+        "detail": "CPU register"
+    },
+    {
+        "label": "rbx",
+        "detail": "CPU register"
+    },
+    {
+        "label": "ebx",
+        "detail": "CPU register"
+    },
+    {
+        "label": "bx",
+        "detail": "CPU register"
+    },
+    {
+        "label": "bl",
+        "detail": "CPU register"
+    },
+    {
+        "label": "rsi",
+        "detail": "CPU register"
+    },
+    {
+        "label": "esi",
+        "detail": "CPU register"
+    },
+    {
+        "label": "si",
+        "detail": "CPU register"
+    },
+    {
+        "label": "sil",
+        "detail": "CPU register"
+    },
+    {
+        "label": "rdi",
+        "detail": "CPU register"
+    },
+    {
+        "label": "edi",
+        "detail": "CPU register"
+    },
+    {
+        "label": "di",
+        "detail": "CPU register"
+    },
+    {
+        "label": "dil",
+        "detail": "CPU register"
+    },
+    {
+        "label": "rsp",
+        "detail": "CPU register"
+    },
+    {
+        "label": "esp",
+        "detail": "CPU register"
+    },
+    {
+        "label": "sp",
+        "detail": "CPU register"
+    },
+    {
+        "label": "spl",
+        "detail": "CPU register"
+    },
+    {
+        "label": "rbp",
+        "detail": "CPU register"
+    },
+    {
+        "label": "ebp",
+        "detail": "CPU register"
+    },
+    {
+        "label": "bp",
+        "detail": "CPU register"
+    },
+    {
+        "label": "bpl",
+        "detail": "CPU register"
+    },
+    {
+        "label": "r8",
+        "detail": "CPU register"
+    },
+    {
+        "label": "r8d",
+        "detail": "CPU register"
+    },
+    {
+        "label": "r8w",
+        "detail": "CPU register"
+    },
+    {
+        "label": "r8b",
+        "detail": "CPU register"
+    },
+    {
+        "label": "r9",
+        "detail": "CPU register"
+    },
+    {
+        "label": "r9d",
+        "detail": "CPU register"
+    },
+    {
+        "label": "r9w",
+        "detail": "CPU register"
+    },
+    {
+        "label": "r9b",
+        "detail": "CPU register"
+    },
+    {
+        "label": "r10",
+        "detail": "CPU register"
+    },
+    {
+        "label": "r10d",
+        "detail": "CPU register"
+    },
+    {
+        "label": "r10w",
+        "detail": "CPU register"
+    },
+    {
+        "label": "r10b",
+        "detail": "CPU register"
+    },
+    {
+        "label": "r11",
+        "detail": "CPU register"
+    },
+    {
+        "label": "r11d",
+        "detail": "CPU register"
+    },
+    {
+        "label": "r11w",
+        "detail": "CPU register"
+    },
+    {
+        "label": "r11b",
+        "detail": "CPU register"
+    },
+    {
+        "label": "r12",
+        "detail": "CPU register"
+    },
+    {
+        "label": "r12d",
+        "detail": "CPU register"
+    },
+    {
+        "label": "r12w",
+        "detail": "CPU register"
+    },
+    {
+        "label": "r12b",
+        "detail": "CPU register"
+    },
+    {
+        "label": "r13",
+        "detail": "CPU register"
+    },
+    {
+        "label": "r13d",
+        "detail": "CPU register"
+    },
+    {
+        "label": "r13w",
+        "detail": "CPU register"
+    },
+    {
+        "label": "r13b",
+        "detail": "CPU register"
+    },
+    {
+        "label": "r14",
+        "detail": "CPU register"
+    },
+    {
+        "label": "r14d",
+        "detail": "CPU register"
+    },
+    {
+        "label": "r14w",
+        "detail": "CPU register"
+    },
+    {
+        "label": "r14b",
+        "detail": "CPU register"
+    },
+    {
+        "label": "r15",
+        "detail": "CPU register"
+    },
+    {
+        "label": "r15d",
+        "detail": "CPU register"
+    },
+    {
+        "label": "r15w",
+        "detail": "CPU register"
+    },
+    {
+        "label": "r15b",
+        "detail": "CPU register"
+    }
+]

@@ -11,7 +11,10 @@ def parse_register_file(filepath) -> list:
 
 
 def convert_to_json(registers : list) -> str:
-    registers_str = json.dumps([{"label": reg} for reg in registers])
+    registers_str = json.dumps([{
+            "label": reg,
+            "detail": "CPU register"
+        } for reg in registers])
     return registers_str
 
 
