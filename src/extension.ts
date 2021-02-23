@@ -26,7 +26,7 @@ export function activate(context: vscode.ExtensionContext) {
 	let registers = require('../resources/registers.json');
 	// add property for autocomplete
 	for (let index = 0; index < registers.length; index++) {
-		registers[index].kind = vscode.CompletionItemKind.Variable;		
+		registers[index].kind = vscode.CompletionItemKind.Variable;
 	}
 
 	let disposable_completion_regs = vscode.languages.registerCompletionItemProvider('asm', {
@@ -37,11 +37,11 @@ export function activate(context: vscode.ExtensionContext) {
 
 	context.subscriptions.push(disposable_completion_regs);
 
-	
+
 	let instructions = require('../resources/instructions.json');
 	// add property for autocomplete
 	for (let index = 0; index < instructions.length; index++) {
-		instructions[index].kind = vscode.CompletionItemKind.Keyword;		
+		instructions[index].kind = vscode.CompletionItemKind.Keyword;
 	}
 
 	let disposable_completion_instructions = vscode.languages.registerCompletionItemProvider('asm', {
@@ -58,7 +58,7 @@ export function activate(context: vscode.ExtensionContext) {
 			let index = instructions.map((e: { label: any; }) => e.label).indexOf(currentWord);
 			if (index != -1) {
 				return new vscode.Hover(
-					currentWord + ' - cpu instruction - brief: ' 
+					currentWord + ' - cpu instruction - brief: '
 					+ instructions[index].documentation
 				);
 			}
@@ -66,9 +66,9 @@ export function activate(context: vscode.ExtensionContext) {
 			return undefined;
 		}
 	});
-	
+
 	context.subscriptions.push(disposable_hover_instructions)
 }
 
 // this method is called when your extension is deactivated
-export function deactivate() {}
+export function deactivate() { }
