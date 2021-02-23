@@ -15,17 +15,19 @@
 		"Other"
 	],
 	"activationEvents": [
-		"onCommand:vscode-ext-x86-64-assembly.helloWorld",
 		"onLanguage:asm"
 	],
 	"main": "./out/extension.js",
 	"contributes": {
-		"commands": [
-			{
-				"command": "vscode-ext-x86-64-assembly.helloWorld",
-				"title": "Hello World"
-			}
-		]
+		"languages": [{
+			"id": "asm",
+			"aliases": [
+				"x86-64 assembly"
+			],
+			"extensions": [
+				".s"
+			]
+		}]
 	},
 	"scripts": {
 		"vscode:prepublish": "npm run compile",

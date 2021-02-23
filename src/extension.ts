@@ -10,19 +10,6 @@ export function activate(context: vscode.ExtensionContext) {
 	// This line of code will only be executed once when your extension is activated
 	console.log('Congratulations, your extension "vscode-ext-x86-64-assembly" is now active!');
 
-	// The command has been defined in the package.json file
-	// Now provide the implementation of the command with registerCommand
-	// The commandId parameter must match the command field in package.json
-	let disposable = vscode.commands.registerCommand('vscode-ext-x86-64-assembly.helloWorld', () => {
-		// The code you place here will be executed every time your command is executed
-
-		// Display a message box to the user
-		vscode.window.showInformationMessage('Hello World from vscode-ext-x86-64-assembly!');
-	});
-
-	context.subscriptions.push(disposable);
-
-
 	let registers = require('../resources/registers.json');
 	// add property for autocomplete
 	for (let index = 0; index < registers.length; index++) {
