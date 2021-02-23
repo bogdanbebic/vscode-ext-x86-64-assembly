@@ -2,6 +2,11 @@
 	"name": "vscode-ext-x86-64-assembly",
 	"displayName": "vscode-ext-x86-64-assembly",
 	"description": "",
+	"publisher": "bogdanbebic",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/bogdanbebic/vscode-ext-x86-64-assembly.git"
+	},
 	"version": "0.0.1",
 	"engines": {
 		"vscode": "^1.44.0"
