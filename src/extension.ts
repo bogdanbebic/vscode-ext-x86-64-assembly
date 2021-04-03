@@ -16,7 +16,7 @@ export function activate(context: vscode.ExtensionContext) {
 		registers[index].kind = vscode.CompletionItemKind.Variable;
 	}
 
-	let disposable_completion_regs = vscode.languages.registerCompletionItemProvider('asm', {
+	let disposable_completion_regs = vscode.languages.registerCompletionItemProvider('asm-intel-x86-generic', {
 		provideCompletionItems(document, position, token, context) {
 			return new vscode.CompletionList(registers);
 		}
@@ -31,7 +31,7 @@ export function activate(context: vscode.ExtensionContext) {
 		instructions[index].kind = vscode.CompletionItemKind.Keyword;
 	}
 
-	let disposable_completion_instructions = vscode.languages.registerCompletionItemProvider('asm', {
+	let disposable_completion_instructions = vscode.languages.registerCompletionItemProvider('asm-intel-x86-generic', {
 		provideCompletionItems(document, position, token, context) {
 			return new vscode.CompletionList(instructions);
 		}
@@ -39,7 +39,7 @@ export function activate(context: vscode.ExtensionContext) {
 
 	context.subscriptions.push(disposable_completion_instructions);
 
-	let disposable_hover_instructions = vscode.languages.registerHoverProvider('asm', {
+	let disposable_hover_instructions = vscode.languages.registerHoverProvider('asm-intel-x86-generic', {
 		provideHover(document, position, token) {
 			let currentWord = document.getText(document.getWordRangeAtPosition(position));
 			let index = instructions.map((e: { label: any; }) => e.label).indexOf(currentWord);
